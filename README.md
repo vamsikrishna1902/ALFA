@@ -2,7 +2,7 @@
 
 The techniques implemented in ALFA are being patented. BANK-KAFS dataset contains sensitive data and is proprietary. Hence both the source code for ALFA and the BANK-KAFS dataset cannot be made available at this time.
 
-However, in order to help with reproducibility of our proposed solution, we are making the pre-processed input files, input embeddings and the output logs corresponding to three other datasets used in our paper, CMT-CONF, HUMAN-MOUSE anatomy and FMA-NCI available. The original ontologies for the schema pairs in CMT-CONF and HUMAN-MOUSE are available as .owl files at http://oaei.ontologymatching.org/2021/conference/ and http://oaei.ontologymatching.org/2021/anatomy/ respectively. The FMA-NCI ontologies were borrowed from https://github.com/KRR-Oxford/BERTMap.
+To assist the reviewing of our paper submission, we are making the pre-processed input files, input embeddings and the output logs corresponding to three other datasets used in our paper, CMT-CONF, HUMAN-MOUSE anatomy and FMA-NCI available. The original ontologies for the schema pairs in CMT-CONF and HUMAN-MOUSE are available as .owl files at http://oaei.ontologymatching.org/2021/conference/ and http://oaei.ontologymatching.org/2021/anatomy/ respectively. The FMA-NCI ontologies were borrowed from https://github.com/KRR-Oxford/BERTMap.
 
 Following is a description of the items available on our GitHub Repository.
 
