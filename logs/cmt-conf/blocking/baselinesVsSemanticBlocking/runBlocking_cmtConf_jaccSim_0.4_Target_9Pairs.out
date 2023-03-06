@@ -1,0 +1,13 @@
+on cpu
+Total #Pairs=17, #Unfound Pairs=2
+len(poolPairs)=16
+Done with totalPairs creation!
+len(posPairs)=15, len(commPosPairs)=30
+len(posPairs)=4, len(commPosPairs)=8
+TRAIN: [0 1 3 4 5 7 8] TEST: [2 6]
+TRAIN: [0 1 2 4 5 6 7] TEST: [3 8]
+TRAIN: [0 2 3 5 6 7 8] TEST: [1 4]
+TRAIN: [1 2 3 4 6 7 8] TEST: [0 5]
+TRAIN: [0 1 2 3 4 5 6 8] TEST: [7]
+#Blocking Clusters: 5, #Distinct Nodes: 116, #Blocking Cluster Percent: 5
+Total #PosPairs=4, #NegPairs=5, True Positive % = 26.666666666666668, False Negative % = 73.33333333333333, negToPosRatio = 1.25

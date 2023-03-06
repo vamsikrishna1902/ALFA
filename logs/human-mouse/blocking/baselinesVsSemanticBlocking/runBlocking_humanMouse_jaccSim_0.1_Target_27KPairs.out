@@ -1,0 +1,93 @@
+on cpu
+Total #Pairs=1516, #Unfound Pairs=0
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+len(poolPairs)=16
+Done with totalPairs creation!
+len(posPairs)=1516, len(commPosPairs)=3032
+len(posPairs)=264, len(commPosPairs)=528
+TRAIN: [    0     1     2 ... 27256 27257 27258] TEST: [    6     7    22 ... 27238 27241 27251]
+TRAIN: [    1     2     3 ... 27256 27257 27258] TEST: [    0     4     5 ... 27239 27240 27252]
+TRAIN: [    0     1     2 ... 27255 27256 27258] TEST: [   20    21    33 ... 27245 27249 27257]
+TRAIN: [    0     1     4 ... 27255 27256 27257] TEST: [    2     3    19 ... 27253 27254 27258]
+TRAIN: [    0     2     3 ... 27254 27257 27258] TEST: [    1     9    10 ... 27248 27255 27256]
+#Blocking Clusters: 2655, #Distinct Nodes: 6035, #Blocking Cluster Percent: 44
+Total #PosPairs=264, #NegPairs=26995, True Positive % = 17.41424802110818, False Negative % = 82.58575197889182, negToPosRatio = 102.25378787878788

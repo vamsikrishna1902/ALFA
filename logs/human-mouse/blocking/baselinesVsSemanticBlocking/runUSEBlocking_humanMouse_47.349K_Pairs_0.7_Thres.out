@@ -1,0 +1,95 @@
+on cpu
+Total #Pairs=1516, #Unfound Pairs=0
+USESim Blocking
+from src/model/gnn/dataset/human-mouse-embedSimBlock/human_mouse_Ontology_Node_Embeddings.txt
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+pair count so far=100000
+pair count so far=200000
+pair count so far=300000
+pair count so far=400000
+pair count so far=500000
+len(poolPairs)=16
+Done with totalPairs creation!
+len(posPairs)=1516, len(commPosPairs)=3032
+len(posPairs)=1332, len(commPosPairs)=2664
+TRAIN: [    1     3     4 ... 47346 47347 47348] TEST: [    0     2     6 ... 47332 47334 47339]
+TRAIN: [    0     1     2 ... 47343 47347 47348] TEST: [    4     5    11 ... 47344 47345 47346]
+TRAIN: [    0     1     2 ... 47344 47345 47346] TEST: [    8    14    15 ... 47340 47347 47348]
+TRAIN: [    0     1     2 ... 47346 47347 47348] TEST: [   23    37    41 ... 47329 47338 47341]
+TRAIN: [    0     2     4 ... 47346 47347 47348] TEST: [    1     3     7 ... 47337 47342 47343]
+#Blocking Clusters: 2655, #Distinct Nodes: 6035, #Blocking Cluster Percent: 44
+Total #PosPairs=1332, #NegPairs=46017, True Positive % = 87.86279683377309, False Negative % = 12.13720316622691, negToPosRatio = 34.5472972972973

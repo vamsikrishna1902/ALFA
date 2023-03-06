@@ -1,0 +1,65 @@
+on cpu
+loading data ... from src/model/gnn/dataset/cmt-conference/cmt_conference_Ontology_Node_Embeddings.txt
+src/model/gnn/dataset/cmt-conference/cmt_conference_Ontology_Edge_List.txt
+src/model/gnn/dataset/cmt-conference/prog_seed_pairs.txt
+src/model/gnn/dataset/cmt-conference/pos_neg_pairs.txt
+done
+Epoch 0099 | Eval Loss 0.6172 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=0, #Train=5, #HeldOut=2998, #Test=3003
+Test Set Loss 1.1952 | Precision 0.0053 | Recall 1.0000 | F1 0.0106 | AUC 0.7066 | trainTime 0.6497 | exSelTime 0.0000 | testTime 0.0024 | numPos -1.0000 | numNeg -1.0000 | Recall_After 1.0000 | F1_After 0.0106 | AUC_After 0.7066
+totalEx=75, totalInferences=32, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=32, infer_FP=0, infer_FN=0, minK=1, maxK=9
+Epoch 0099 | Eval Loss 0.6730 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=1, #Train=75, #HeldOut=2928, #Test=3003
+Test Set Loss 1.0326 | Precision 0.0084 | Recall 1.0000 | F1 0.0167 | AUC 0.7515 | trainTime 0.6497 | exSelTime 0.4110 | testTime 0.0024 | numPos 4.0000 | numNeg 71.0000 | Recall_After 1.0000 | F1_After 0.0167 | AUC_After 0.7515
+totalEx=282, totalInferences=169, infer_Precision=0.0, infer_Recall=1.0, infer_F1=0.0, infer_TP=0, infer_TN=166, infer_FP=3, infer_FN=0, minK=1, maxK=20
+Epoch 0099 | Eval Loss 0.6827 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0022
+ITER=2, #Train=282, #HeldOut=2721, #Test=3003
+Test Set Loss 0.9353 | Precision 0.0104 | Recall 0.9333 | F1 0.0205 | AUC 0.8275 | trainTime 0.6497 | exSelTime 0.4304 | testTime 0.0028 | numPos 8.0000 | numNeg 274.0000 | Recall_After 0.9333 | F1_After 0.0205 | AUC_After 0.8275
+totalEx=478, totalInferences=158, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=158, infer_FP=0, infer_FN=0, minK=1, maxK=50
+Epoch 0099 | Eval Loss 0.6880 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0022
+ITER=3, #Train=478, #HeldOut=2525, #Test=3003
+Test Set Loss 0.8629 | Precision 0.0134 | Recall 0.8667 | F1 0.0263 | AUC 0.8878 | trainTime 0.6497 | exSelTime 0.4024 | testTime 0.0025 | numPos 8.0000 | numNeg 470.0000 | Recall_After 0.8667 | F1_After 0.0263 | AUC_After 0.8878
+totalEx=1056, totalInferences=540, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=540, infer_FP=0, infer_FN=0, minK=1, maxK=227
+Epoch 0099 | Eval Loss 0.6918 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0027
+ITER=4, #Train=1056, #HeldOut=1947, #Test=3003
+Test Set Loss 0.7555 | Precision 0.0376 | Recall 0.8000 | F1 0.0719 | AUC 0.9372 | trainTime 0.6497 | exSelTime 0.5177 | testTime 0.0030 | numPos 9.0000 | numNeg 1047.0000 | Recall_After 0.8000 | F1_After 0.0719 | AUC_After 0.9372
+totalEx=1409, totalInferences=315, infer_Precision=1.0, infer_Recall=0.0, infer_F1=0.0, infer_TP=0, infer_TN=313, infer_FP=0, infer_FN=2, minK=1, maxK=160
+Epoch 0099 | Eval Loss 0.6969 | Precision 0.8000 | Recall 0.8889 | F1 0.8421 | AUC 0.9991 | time 0.0030
+ITER=5, #Train=1409, #HeldOut=1594, #Test=3003
+Test Set Loss 0.7022 | Precision 0.1795 | Recall 0.4667 | F1 0.2593 | AUC 0.9355 | trainTime 0.6497 | exSelTime 0.3351 | testTime 0.0065 | numPos 9.0000 | numNeg 1400.0000 | Recall_After 0.4667 | F1_After 0.2593 | AUC_After 0.9355
+totalEx=1751, totalInferences=304, infer_Precision=1.0, infer_Recall=0.0, infer_F1=0.0, infer_TP=0, infer_TN=300, infer_FP=0, infer_FN=4, minK=3, maxK=90
+Epoch 0099 | Eval Loss 0.6941 | Precision 0.9091 | Recall 0.9091 | F1 0.9091 | AUC 0.9998 | time 0.0020
+ITER=6, #Train=1751, #HeldOut=1252, #Test=3003
+Test Set Loss 0.6948 | Precision 0.6667 | Recall 0.5333 | F1 0.5926 | AUC 0.9218 | trainTime 0.6497 | exSelTime 0.4512 | testTime 0.0021 | numPos 11.0000 | numNeg 1740.0000 | Recall_After 0.5333 | F1_After 0.5926 | AUC_After 0.9218
+totalEx=2161, totalInferences=372, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=372, infer_FP=0, infer_FN=0, minK=5, maxK=93
+Epoch 0099 | Eval Loss 0.6928 | Precision 0.9167 | Recall 0.9167 | F1 0.9167 | AUC 0.9999 | time 0.0022
+ITER=7, #Train=2161, #HeldOut=842, #Test=3003
+Test Set Loss 0.6939 | Precision 0.6667 | Recall 0.5333 | F1 0.5926 | AUC 0.9217 | trainTime 0.6497 | exSelTime 0.2578 | testTime 0.0028 | numPos 12.0000 | numNeg 2149.0000 | Recall_After 0.5333 | F1_After 0.5926 | AUC_After 0.9217
+totalEx=2413, totalInferences=214, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=214, infer_FP=0, infer_FN=0, minK=1, maxK=97
+Epoch 0099 | Eval Loss 0.6924 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9999 | time 0.0022
+ITER=8, #Train=2413, #HeldOut=590, #Test=3003
+Test Set Loss 0.6935 | Precision 0.6923 | Recall 0.6000 | F1 0.6429 | AUC 0.9227 | trainTime 0.6497 | exSelTime 0.1996 | testTime 0.0026 | numPos 12.0000 | numNeg 2401.0000 | Recall_After 0.6000 | F1_After 0.6429 | AUC_After 0.9227
+totalEx=2672, totalInferences=221, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=221, infer_FP=0, infer_FN=0, minK=1, maxK=45
+Epoch 0099 | Eval Loss 0.6922 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 1.0000 | time 0.0022
+ITER=9, #Train=2672, #HeldOut=331, #Test=3003
+Test Set Loss 0.6933 | Precision 0.6923 | Recall 0.6000 | F1 0.6429 | AUC 0.9239 | trainTime 0.6497 | exSelTime 0.1820 | testTime 0.0024 | numPos 12.0000 | numNeg 2660.0000 | Recall_After 0.6000 | F1_After 0.6429 | AUC_After 0.9239
+totalEx=2797, totalInferences=87, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=87, infer_FP=0, infer_FN=0, minK=1, maxK=13
+Epoch 0099 | Eval Loss 0.6921 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0024
+ITER=10, #Train=2797, #HeldOut=206, #Test=3003
+Test Set Loss 0.6931 | Precision 0.7500 | Recall 0.6000 | F1 0.6667 | AUC 0.9249 | trainTime 0.6497 | exSelTime 0.1396 | testTime 0.0030 | numPos 12.0000 | numNeg 2785.0000 | Recall_After 0.6000 | F1_After 0.6667 | AUC_After 0.9249
+totalEx=2903, totalInferences=68, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=68, infer_FP=0, infer_FN=0, minK=1, maxK=18
+Epoch 0099 | Eval Loss 0.6920 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0023
+ITER=11, #Train=2903, #HeldOut=100, #Test=3003
+Test Set Loss 0.6930 | Precision 0.7500 | Recall 0.6000 | F1 0.6667 | AUC 0.9254 | trainTime 0.6497 | exSelTime 0.1158 | testTime 0.0025 | numPos 12.0000 | numNeg 2891.0000 | Recall_After 0.6000 | F1_After 0.6667 | AUC_After 0.9254
+totalEx=2961, totalInferences=20, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=20, infer_FP=0, infer_FN=0, minK=1, maxK=8
+Epoch 0099 | Eval Loss 0.6919 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0022
+ITER=12, #Train=2961, #HeldOut=42, #Test=3003
+Test Set Loss 0.6929 | Precision 0.7500 | Recall 0.6000 | F1 0.6667 | AUC 0.9259 | trainTime 0.6497 | exSelTime 0.0929 | testTime 0.0028 | numPos 12.0000 | numNeg 2949.0000 | Recall_After 0.6000 | F1_After 0.6667 | AUC_After 0.9259
+totalEx=3000, totalInferences=1, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=1
+Epoch 0099 | Eval Loss 0.6919 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0022
+ITER=13, #Train=3000, #HeldOut=3, #Test=3003
+Test Set Loss 0.6929 | Precision 0.7500 | Recall 0.6000 | F1 0.6667 | AUC 0.9263 | trainTime 0.6497 | exSelTime 0.0713 | testTime 0.0023 | numPos 12.0000 | numNeg 2988.0000 | Recall_After 0.6000 | F1_After 0.6667 | AUC_After 0.9263
+totalEx=3003, totalInferences=0, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+Epoch 0099 | Eval Loss 0.6918 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0023
+ITER=14, #Train=3003, #HeldOut=0, #Test=3003
+Test Set Loss 0.6928 | Precision 0.7500 | Recall 0.6000 | F1 0.6667 | AUC 0.9269 | trainTime 0.6497 | exSelTime 0.0257 | testTime 0.0023 | numPos 12.0000 | numNeg 2991.0000 | Recall_After 0.6000 | F1_After 0.6667 | AUC_After 0.9269

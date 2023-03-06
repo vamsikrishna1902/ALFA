@@ -1,0 +1,15 @@
+on cpu
+Total #Pairs=1516, #Unfound Pairs=0
+Done with clustering!
+Done with nodeToClusterMap creation!
+In ClusterID: 0
+Done with totalPairs creation!
+len(posPairs)=1516, len(commPosPairs)=3032
+len(posPairs)=1256, len(commPosPairs)=2512
+TRAIN: [    0     1     2 ... 55839 55840 55841] TEST: [    7     8     9 ... 55823 55829 55837]
+TRAIN: [    1     2     3 ... 55839 55840 55841] TEST: [    0     4     5 ... 55826 55828 55836]
+TRAIN: [    0     2     4 ... 55839 55840 55841] TEST: [    1     3    17 ... 55812 55832 55835]
+TRAIN: [    0     1     3 ... 55837 55838 55840] TEST: [    2    11    14 ... 55834 55839 55841]
+TRAIN: [    0     1     2 ... 55837 55839 55841] TEST: [    6    13    21 ... 55831 55838 55840]
+#Blocking Clusters: 211, #Distinct Nodes: 6035, #Blocking Cluster Percent: 3.5
+Total #PosPairs=1256, #NegPairs=54586, True Positive % = 82.84960422163589, False Negative % = 17.150395778364114, negToPosRatio = 43.460191082802545

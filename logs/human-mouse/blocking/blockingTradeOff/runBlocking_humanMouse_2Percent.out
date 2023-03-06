@@ -1,0 +1,14 @@
+on cpu
+right node "peyer's patch follicle" not found, approx search
+right node "peyer's patch" not found, approx search
+right node "hassall's corpuscle" not found, approx search
+right node "peyer's patch germinal center" not found, approx search
+right node "brunner's gland" not found, approx search
+Total #Pairs=1516, #Unfound Pairs=0
+TRAIN: [     0      1      2 ... 225643 225644 225645] TEST: [    12     15     20 ... 225635 225638 225639]
+TRAIN: [     2      3      4 ... 225640 225641 225645] TEST: [     0      1     11 ... 225642 225643 225644]
+TRAIN: [     0      1      2 ... 225643 225644 225645] TEST: [     4      5     10 ... 225633 225637 225640]
+TRAIN: [     0      1      2 ... 225643 225644 225645] TEST: [     9     16     21 ... 225620 225632 225634]
+TRAIN: [     0      1      4 ... 225642 225643 225644] TEST: [     2      3      6 ... 225636 225641 225645]
+#Blocking Clusters: 120, #Distinct Nodes: 6035, #Blocking Cluster Percent: 2
+Total #PosPairs=1278, #NegPairs=224368, True Positive % = 84.30079155672823, False Negative % = 15.699208443271772, negToPosRatio = 175.5618153364632

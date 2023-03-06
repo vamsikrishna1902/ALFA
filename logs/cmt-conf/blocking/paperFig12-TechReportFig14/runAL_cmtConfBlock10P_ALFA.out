@@ -1,0 +1,288 @@
+on cpu
+loading data ... from src/model/gnn/dataset/cmt-conference-block/cmt_conference_Ontology_Node_Embeddings.txt
+src/model/gnn/dataset/cmt-conference-block/cmt_conference_Ontology_Edge_List.txt
+src/model/gnn/dataset/cmt-conference-block/prog_seed_pairs.txt
+src/model/gnn/dataset/cmt-conference-block/pos_neg_pairs.txt
+done
+Epoch 0099 | Eval Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0029
+ITER=0, #Train=25, #HeldOut=278, #Test=303
+Test Set Loss 1.0078 | Precision 0.0682 | Recall 1.0000 | F1 0.1277 | AUC 0.6924 | trainTime 0.8641 | exSelTime 0.0000 | testTime 0.0115 | numPos -1.0000 | numNeg -1.0000 | Recall_After 0.8000 | F1_After 0.1257 | AUC_After 0.5540
+Epoch 0099 | Eval Loss 0.6525 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0027
+ITER=1, #Train=28, #HeldOut=275, #Test=303
+Test Set Loss 0.9866 | Precision 0.0732 | Recall 1.0000 | F1 0.1364 | AUC 0.7503 | trainTime 0.8641 | exSelTime 0.2092 | testTime 0.0028 | numPos 3.0000 | numNeg 25.0000 | Recall_After 0.8000 | F1_After 0.1341 | AUC_After 0.6002
+Epoch 0099 | Eval Loss 0.6565 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0027
+ITER=2, #Train=31, #HeldOut=272, #Test=303
+Test Set Loss 0.9998 | Precision 0.0663 | Recall 1.0000 | F1 0.1244 | AUC 0.7821 | trainTime 0.8641 | exSelTime 0.2131 | testTime 0.0029 | numPos 3.0000 | numNeg 28.0000 | Recall_After 0.8000 | F1_After 0.1224 | AUC_After 0.6257
+Epoch 0099 | Eval Loss 0.6597 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0051
+ITER=3, #Train=34, #HeldOut=269, #Test=303
+Test Set Loss 0.9540 | Precision 0.0774 | Recall 1.0000 | F1 0.1437 | AUC 0.7844 | trainTime 0.8641 | exSelTime 0.1963 | testTime 0.0045 | numPos 3.0000 | numNeg 31.0000 | Recall_After 0.8000 | F1_After 0.1412 | AUC_After 0.6275
+Epoch 0099 | Eval Loss 0.6624 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0085
+ITER=4, #Train=37, #HeldOut=266, #Test=303
+Test Set Loss 0.9521 | Precision 0.0724 | Recall 0.9167 | F1 0.1341 | AUC 0.8252 | trainTime 0.8641 | exSelTime 0.3063 | testTime 0.0123 | numPos 3.0000 | numNeg 34.0000 | Recall_After 0.7333 | F1_After 0.1317 | AUC_After 0.6601
+Epoch 0099 | Eval Loss 0.6648 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0022
+ITER=5, #Train=40, #HeldOut=263, #Test=303
+Test Set Loss 0.9339 | Precision 0.0791 | Recall 0.9167 | F1 0.1457 | AUC 0.8270 | trainTime 0.8641 | exSelTime 0.4117 | testTime 0.0024 | numPos 3.0000 | numNeg 37.0000 | Recall_After 0.7333 | F1_After 0.1429 | AUC_After 0.6616
+Epoch 0099 | Eval Loss 0.6579 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0024
+ITER=6, #Train=43, #HeldOut=260, #Test=303
+Test Set Loss 0.9202 | Precision 0.0786 | Recall 0.9167 | F1 0.1447 | AUC 0.8319 | trainTime 0.8641 | exSelTime 0.1199 | testTime 0.0024 | numPos 4.0000 | numNeg 39.0000 | Recall_After 0.7333 | F1_After 0.1419 | AUC_After 0.6655
+Epoch 0099 | Eval Loss 0.6602 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=7, #Train=46, #HeldOut=257, #Test=303
+Test Set Loss 0.9034 | Precision 0.0909 | Recall 1.0000 | F1 0.1667 | AUC 0.8807 | trainTime 0.8641 | exSelTime 0.1171 | testTime 0.0022 | numPos 4.0000 | numNeg 42.0000 | Recall_After 0.8000 | F1_After 0.1633 | AUC_After 0.7046
+Epoch 0099 | Eval Loss 0.6623 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=8, #Train=49, #HeldOut=254, #Test=303
+Test Set Loss 0.9074 | Precision 0.0930 | Recall 1.0000 | F1 0.1702 | AUC 0.8776 | trainTime 0.8641 | exSelTime 0.1069 | testTime 0.0021 | numPos 4.0000 | numNeg 45.0000 | Recall_After 0.8000 | F1_After 0.1667 | AUC_After 0.7021
+Epoch 0099 | Eval Loss 0.6641 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=9, #Train=52, #HeldOut=251, #Test=303
+Test Set Loss 0.9060 | Precision 0.0902 | Recall 1.0000 | F1 0.1655 | AUC 0.8757 | trainTime 0.8641 | exSelTime 0.1017 | testTime 0.0021 | numPos 4.0000 | numNeg 48.0000 | Recall_After 0.8000 | F1_After 0.1622 | AUC_After 0.7006
+Epoch 0099 | Eval Loss 0.6657 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=10, #Train=55, #HeldOut=248, #Test=303
+Test Set Loss 0.8893 | Precision 0.0976 | Recall 1.0000 | F1 0.1778 | AUC 0.9028 | trainTime 0.8641 | exSelTime 0.1021 | testTime 0.0020 | numPos 4.0000 | numNeg 51.0000 | Recall_After 0.8000 | F1_After 0.1739 | AUC_After 0.7222
+Epoch 0099 | Eval Loss 0.6671 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=11, #Train=58, #HeldOut=245, #Test=303
+Test Set Loss 0.8831 | Precision 0.0992 | Recall 1.0000 | F1 0.1805 | AUC 0.8999 | trainTime 0.8641 | exSelTime 0.1024 | testTime 0.0023 | numPos 4.0000 | numNeg 54.0000 | Recall_After 0.8000 | F1_After 0.1765 | AUC_After 0.7199
+Epoch 0099 | Eval Loss 0.6684 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=12, #Train=61, #HeldOut=242, #Test=303
+Test Set Loss 0.8577 | Precision 0.1111 | Recall 1.0000 | F1 0.2000 | AUC 0.9141 | trainTime 0.8641 | exSelTime 0.1145 | testTime 0.0020 | numPos 4.0000 | numNeg 57.0000 | Recall_After 0.8000 | F1_After 0.1951 | AUC_After 0.7313
+Epoch 0099 | Eval Loss 0.6696 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=13, #Train=64, #HeldOut=239, #Test=303
+Test Set Loss 0.8510 | Precision 0.1188 | Recall 1.0000 | F1 0.2124 | AUC 0.9301 | trainTime 0.8641 | exSelTime 0.1097 | testTime 0.0020 | numPos 4.0000 | numNeg 60.0000 | Recall_After 0.8000 | F1_After 0.2069 | AUC_After 0.7441
+Epoch 0099 | Eval Loss 0.6708 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=14, #Train=67, #HeldOut=236, #Test=303
+Test Set Loss 0.8412 | Precision 0.1224 | Recall 1.0000 | F1 0.2182 | AUC 0.9393 | trainTime 0.8641 | exSelTime 0.1099 | testTime 0.0020 | numPos 4.0000 | numNeg 63.0000 | Recall_After 0.8000 | F1_After 0.2124 | AUC_After 0.7514
+Epoch 0099 | Eval Loss 0.6716 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=15, #Train=70, #HeldOut=233, #Test=303
+Test Set Loss 0.7983 | Precision 0.1507 | Recall 0.9167 | F1 0.2588 | AUC 0.9247 | trainTime 0.8641 | exSelTime 0.1139 | testTime 0.0022 | numPos 4.0000 | numNeg 66.0000 | Recall_After 0.7333 | F1_After 0.2500 | AUC_After 0.7397
+Epoch 0099 | Eval Loss 0.6726 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=16, #Train=73, #HeldOut=230, #Test=303
+Test Set Loss 0.7951 | Precision 0.1507 | Recall 0.9167 | F1 0.2588 | AUC 0.9333 | trainTime 0.8641 | exSelTime 0.1077 | testTime 0.0023 | numPos 4.0000 | numNeg 69.0000 | Recall_After 0.7333 | F1_After 0.2500 | AUC_After 0.7466
+Epoch 0099 | Eval Loss 0.6734 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0031
+ITER=17, #Train=76, #HeldOut=227, #Test=303
+Test Set Loss 0.7880 | Precision 0.1471 | Recall 0.8333 | F1 0.2500 | AUC 0.9081 | trainTime 0.8641 | exSelTime 0.2302 | testTime 0.0033 | numPos 4.0000 | numNeg 72.0000 | Recall_After 0.6667 | F1_After 0.2410 | AUC_After 0.7265
+Epoch 0099 | Eval Loss 0.6741 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0038
+ITER=18, #Train=79, #HeldOut=224, #Test=303
+Test Set Loss 0.7788 | Precision 0.1636 | Recall 0.7500 | F1 0.2687 | AUC 0.8986 | trainTime 0.8641 | exSelTime 0.2529 | testTime 0.0037 | numPos 4.0000 | numNeg 75.0000 | Recall_After 0.6000 | F1_After 0.2571 | AUC_After 0.7189
+Epoch 0099 | Eval Loss 0.6655 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0034
+ITER=19, #Train=82, #HeldOut=221, #Test=303
+Test Set Loss 0.7726 | Precision 0.1698 | Recall 0.7500 | F1 0.2769 | AUC 0.9012 | trainTime 0.8641 | exSelTime 0.2868 | testTime 0.0036 | numPos 6.0000 | numNeg 76.0000 | Recall_After 0.6000 | F1_After 0.2647 | AUC_After 0.7210
+Epoch 0099 | Eval Loss 0.6664 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0028
+ITER=20, #Train=85, #HeldOut=218, #Test=303
+Test Set Loss 0.7719 | Precision 0.1667 | Recall 0.7500 | F1 0.2727 | AUC 0.9092 | trainTime 0.8641 | exSelTime 0.2320 | testTime 0.0029 | numPos 6.0000 | numNeg 79.0000 | Recall_After 0.6000 | F1_After 0.2609 | AUC_After 0.7274
+Epoch 0099 | Eval Loss 0.6675 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0028
+ITER=21, #Train=88, #HeldOut=215, #Test=303
+Test Set Loss 0.7405 | Precision 0.2500 | Recall 0.7500 | F1 0.3750 | AUC 0.9341 | trainTime 0.8641 | exSelTime 0.1931 | testTime 0.0030 | numPos 6.0000 | numNeg 82.0000 | Recall_After 0.6000 | F1_After 0.3529 | AUC_After 0.7473
+Epoch 0099 | Eval Loss 0.6683 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0034
+ITER=22, #Train=91, #HeldOut=212, #Test=303
+Test Set Loss 0.7359 | Precision 0.2647 | Recall 0.7500 | F1 0.3913 | AUC 0.9450 | trainTime 0.8641 | exSelTime 0.2027 | testTime 0.0035 | numPos 6.0000 | numNeg 85.0000 | Recall_After 0.6000 | F1_After 0.3673 | AUC_After 0.7560
+Epoch 0099 | Eval Loss 0.6691 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0033
+ITER=23, #Train=94, #HeldOut=209, #Test=303
+Test Set Loss 0.7318 | Precision 0.2903 | Recall 0.7500 | F1 0.4186 | AUC 0.9476 | trainTime 0.8641 | exSelTime 0.2311 | testTime 0.0269 | numPos 6.0000 | numNeg 88.0000 | Recall_After 0.6000 | F1_After 0.3913 | AUC_After 0.7581
+Epoch 0099 | Eval Loss 0.6698 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0034
+ITER=24, #Train=97, #HeldOut=206, #Test=303
+Test Set Loss 0.7121 | Precision 0.4500 | Recall 0.7500 | F1 0.5625 | AUC 0.9651 | trainTime 0.8641 | exSelTime 0.2259 | testTime 0.0034 | numPos 6.0000 | numNeg 91.0000 | Recall_After 0.6000 | F1_After 0.5143 | AUC_After 0.7721
+Epoch 0099 | Eval Loss 0.6704 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0056
+ITER=25, #Train=100, #HeldOut=203, #Test=303
+Test Set Loss 0.7075 | Precision 0.4737 | Recall 0.7500 | F1 0.5806 | AUC 0.9705 | trainTime 0.8641 | exSelTime 0.2755 | testTime 0.0040 | numPos 6.0000 | numNeg 94.0000 | Recall_After 0.6000 | F1_After 0.5294 | AUC_After 0.7764
+Epoch 0099 | Eval Loss 0.6711 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0036
+ITER=26, #Train=103, #HeldOut=200, #Test=303
+Test Set Loss 0.7028 | Precision 0.5294 | Recall 0.7500 | F1 0.6207 | AUC 0.9734 | trainTime 0.8641 | exSelTime 0.2436 | testTime 0.0037 | numPos 6.0000 | numNeg 97.0000 | Recall_After 0.6000 | F1_After 0.5625 | AUC_After 0.7787
+Epoch 0099 | Eval Loss 0.6681 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=27, #Train=106, #HeldOut=197, #Test=303
+Test Set Loss 0.7032 | Precision 0.5556 | Recall 0.8333 | F1 0.6667 | AUC 0.9771 | trainTime 0.8641 | exSelTime 0.2879 | testTime 0.0021 | numPos 7.0000 | numNeg 99.0000 | Recall_After 0.6667 | F1_After 0.6061 | AUC_After 0.7817
+Epoch 0099 | Eval Loss 0.6688 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=28, #Train=109, #HeldOut=194, #Test=303
+Test Set Loss 0.7028 | Precision 0.5000 | Recall 0.8333 | F1 0.6250 | AUC 0.9797 | trainTime 0.8641 | exSelTime 0.1025 | testTime 0.0020 | numPos 7.0000 | numNeg 102.0000 | Recall_After 0.6667 | F1_After 0.5714 | AUC_After 0.7837
+Epoch 0099 | Eval Loss 0.6695 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=29, #Train=112, #HeldOut=191, #Test=303
+Test Set Loss 0.6975 | Precision 0.5882 | Recall 0.8333 | F1 0.6897 | AUC 0.9800 | trainTime 0.8641 | exSelTime 0.0977 | testTime 0.0022 | numPos 7.0000 | numNeg 105.0000 | Recall_After 0.6667 | F1_After 0.6250 | AUC_After 0.7840
+Epoch 0099 | Eval Loss 0.6701 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=30, #Train=115, #HeldOut=188, #Test=303
+Test Set Loss 0.6947 | Precision 0.6667 | Recall 0.8333 | F1 0.7407 | AUC 0.9834 | trainTime 0.8641 | exSelTime 0.0954 | testTime 0.0021 | numPos 7.0000 | numNeg 108.0000 | Recall_After 0.6667 | F1_After 0.6667 | AUC_After 0.7867
+Epoch 0099 | Eval Loss 0.6707 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=31, #Train=118, #HeldOut=185, #Test=303
+Test Set Loss 0.6916 | Precision 0.6667 | Recall 0.8333 | F1 0.7407 | AUC 0.9868 | trainTime 0.8641 | exSelTime 0.1037 | testTime 0.0022 | numPos 7.0000 | numNeg 111.0000 | Recall_After 0.6667 | F1_After 0.6667 | AUC_After 0.7895
+Epoch 0099 | Eval Loss 0.6712 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=32, #Train=121, #HeldOut=182, #Test=303
+Test Set Loss 0.6911 | Precision 0.6667 | Recall 0.8333 | F1 0.7407 | AUC 0.9891 | trainTime 0.8641 | exSelTime 0.0950 | testTime 0.0020 | numPos 7.0000 | numNeg 114.0000 | Recall_After 0.6667 | F1_After 0.6667 | AUC_After 0.7913
+Epoch 0099 | Eval Loss 0.6717 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=33, #Train=124, #HeldOut=179, #Test=303
+Test Set Loss 0.6909 | Precision 0.6667 | Recall 0.8333 | F1 0.7407 | AUC 0.9901 | trainTime 0.8641 | exSelTime 0.0934 | testTime 0.0021 | numPos 7.0000 | numNeg 117.0000 | Recall_After 0.6667 | F1_After 0.6667 | AUC_After 0.7921
+Epoch 0099 | Eval Loss 0.6693 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=34, #Train=127, #HeldOut=176, #Test=303
+Test Set Loss 0.6898 | Precision 0.6875 | Recall 0.9167 | F1 0.7857 | AUC 0.9913 | trainTime 0.8641 | exSelTime 0.0963 | testTime 0.0021 | numPos 8.0000 | numNeg 119.0000 | Recall_After 0.7333 | F1_After 0.7097 | AUC_After 0.7930
+Epoch 0099 | Eval Loss 0.6669 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=35, #Train=130, #HeldOut=173, #Test=303
+Test Set Loss 0.6905 | Precision 0.6667 | Recall 1.0000 | F1 0.8000 | AUC 0.9927 | trainTime 0.8641 | exSelTime 0.0997 | testTime 0.0020 | numPos 9.0000 | numNeg 121.0000 | Recall_After 0.8000 | F1_After 0.7273 | AUC_After 0.7942
+Epoch 0099 | Eval Loss 0.6647 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0018
+ITER=36, #Train=133, #HeldOut=170, #Test=303
+Test Set Loss 0.6874 | Precision 0.7059 | Recall 1.0000 | F1 0.8276 | AUC 0.9954 | trainTime 0.8641 | exSelTime 0.0916 | testTime 0.0020 | numPos 10.0000 | numNeg 123.0000 | Recall_After 0.8000 | F1_After 0.7500 | AUC_After 0.7963
+Epoch 0099 | Eval Loss 0.6625 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=37, #Train=136, #HeldOut=167, #Test=303
+Test Set Loss 0.6841 | Precision 0.8571 | Recall 1.0000 | F1 0.9231 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.0986 | testTime 0.0019 | numPos 11.0000 | numNeg 125.0000 | Recall_After 0.8000 | F1_After 0.8276 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6632 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0033
+ITER=38, #Train=139, #HeldOut=164, #Test=303
+Test Set Loss 0.6803 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9980 | trainTime 0.8641 | exSelTime 0.1001 | testTime 0.0033 | numPos 11.0000 | numNeg 128.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7984
+Epoch 0099 | Eval Loss 0.6638 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0033
+ITER=39, #Train=142, #HeldOut=161, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9980 | trainTime 0.8641 | exSelTime 0.1915 | testTime 0.0033 | numPos 11.0000 | numNeg 131.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7984
+Epoch 0099 | Eval Loss 0.6644 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0033
+ITER=40, #Train=145, #HeldOut=158, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9977 | trainTime 0.8641 | exSelTime 0.2203 | testTime 0.0033 | numPos 11.0000 | numNeg 134.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7982
+Epoch 0099 | Eval Loss 0.6649 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0059
+ITER=41, #Train=148, #HeldOut=155, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9977 | trainTime 0.8641 | exSelTime 0.2156 | testTime 0.0054 | numPos 11.0000 | numNeg 137.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7982
+Epoch 0099 | Eval Loss 0.6655 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0030
+ITER=42, #Train=151, #HeldOut=152, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.3145 | testTime 0.0029 | numPos 11.0000 | numNeg 140.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6660 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0030
+ITER=43, #Train=154, #HeldOut=149, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.1816 | testTime 0.0030 | numPos 11.0000 | numNeg 143.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6665 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0029
+ITER=44, #Train=157, #HeldOut=146, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.1730 | testTime 0.0030 | numPos 11.0000 | numNeg 146.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6670 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0032
+ITER=45, #Train=160, #HeldOut=143, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.1841 | testTime 0.0034 | numPos 11.0000 | numNeg 149.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6675 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0034
+ITER=46, #Train=163, #HeldOut=140, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.1833 | testTime 0.0035 | numPos 11.0000 | numNeg 152.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6680 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0039
+ITER=47, #Train=166, #HeldOut=137, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.2524 | testTime 0.0044 | numPos 11.0000 | numNeg 155.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6684 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0046
+ITER=48, #Train=169, #HeldOut=134, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.2729 | testTime 0.0075 | numPos 11.0000 | numNeg 158.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6689 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=49, #Train=172, #HeldOut=131, #Test=303
+Test Set Loss 0.6802 | Precision 0.9231 | Recall 1.0000 | F1 0.9600 | AUC 0.9974 | trainTime 0.8641 | exSelTime 0.1629 | testTime 0.0019 | numPos 11.0000 | numNeg 161.0000 | Recall_After 0.8000 | F1_After 0.8571 | AUC_After 0.7979
+Epoch 0099 | Eval Loss 0.6693 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=50, #Train=175, #HeldOut=128, #Test=303
+Test Set Loss 0.6782 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0922 | testTime 0.0020 | numPos 11.0000 | numNeg 164.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6697 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=51, #Train=178, #HeldOut=125, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0899 | testTime 0.0020 | numPos 11.0000 | numNeg 167.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6701 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=52, #Train=181, #HeldOut=122, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0834 | testTime 0.0019 | numPos 11.0000 | numNeg 170.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6704 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=53, #Train=184, #HeldOut=119, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0834 | testTime 0.0019 | numPos 11.0000 | numNeg 173.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6708 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=54, #Train=187, #HeldOut=116, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0858 | testTime 0.0020 | numPos 11.0000 | numNeg 176.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6712 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=55, #Train=190, #HeldOut=113, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0844 | testTime 0.0021 | numPos 11.0000 | numNeg 179.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6715 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0017
+ITER=56, #Train=193, #HeldOut=110, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0866 | testTime 0.0019 | numPos 11.0000 | numNeg 182.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6718 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=57, #Train=196, #HeldOut=107, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0836 | testTime 0.0021 | numPos 11.0000 | numNeg 185.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6722 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=58, #Train=199, #HeldOut=104, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0906 | testTime 0.0021 | numPos 11.0000 | numNeg 188.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6725 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=59, #Train=202, #HeldOut=101, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0864 | testTime 0.0020 | numPos 11.0000 | numNeg 191.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6728 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=60, #Train=205, #HeldOut=98, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0861 | testTime 0.0019 | numPos 11.0000 | numNeg 194.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6731 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0031
+ITER=61, #Train=208, #HeldOut=95, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0952 | testTime 0.0032 | numPos 11.0000 | numNeg 197.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6733 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0065
+ITER=62, #Train=211, #HeldOut=92, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1805 | testTime 0.0053 | numPos 11.0000 | numNeg 200.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6736 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0033
+ITER=63, #Train=214, #HeldOut=89, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.2033 | testTime 0.0035 | numPos 11.0000 | numNeg 203.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6739 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0032
+ITER=64, #Train=217, #HeldOut=86, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.2027 | testTime 0.0030 | numPos 11.0000 | numNeg 206.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6742 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0030
+ITER=65, #Train=220, #HeldOut=83, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1610 | testTime 0.0030 | numPos 11.0000 | numNeg 209.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6744 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0032
+ITER=66, #Train=223, #HeldOut=80, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1582 | testTime 0.0033 | numPos 11.0000 | numNeg 212.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6747 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0059
+ITER=67, #Train=226, #HeldOut=77, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1740 | testTime 0.0038 | numPos 11.0000 | numNeg 215.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6749 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0035
+ITER=68, #Train=229, #HeldOut=74, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1661 | testTime 0.0036 | numPos 11.0000 | numNeg 218.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6751 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0066
+ITER=69, #Train=232, #HeldOut=71, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.2360 | testTime 0.0049 | numPos 11.0000 | numNeg 221.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6754 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0035
+ITER=70, #Train=235, #HeldOut=68, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.2328 | testTime 0.0040 | numPos 11.0000 | numNeg 224.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6756 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=71, #Train=238, #HeldOut=65, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1285 | testTime 0.0020 | numPos 11.0000 | numNeg 227.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6758 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=72, #Train=241, #HeldOut=62, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0864 | testTime 0.0021 | numPos 11.0000 | numNeg 230.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6760 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0018
+ITER=73, #Train=244, #HeldOut=59, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0783 | testTime 0.0019 | numPos 11.0000 | numNeg 233.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6762 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=74, #Train=247, #HeldOut=56, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0761 | testTime 0.0019 | numPos 11.0000 | numNeg 236.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6764 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=75, #Train=250, #HeldOut=53, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0773 | testTime 0.0020 | numPos 11.0000 | numNeg 239.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6766 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0019
+ITER=76, #Train=253, #HeldOut=50, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0760 | testTime 0.0022 | numPos 11.0000 | numNeg 242.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6768 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=77, #Train=256, #HeldOut=47, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0807 | testTime 0.0020 | numPos 11.0000 | numNeg 245.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6770 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=78, #Train=259, #HeldOut=44, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0802 | testTime 0.0020 | numPos 11.0000 | numNeg 248.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6772 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=79, #Train=262, #HeldOut=41, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0783 | testTime 0.0021 | numPos 11.0000 | numNeg 251.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6774 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0021
+ITER=80, #Train=265, #HeldOut=38, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0788 | testTime 0.0020 | numPos 11.0000 | numNeg 254.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6776 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0031
+ITER=81, #Train=268, #HeldOut=35, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.0817 | testTime 0.0032 | numPos 11.0000 | numNeg 257.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6777 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0032
+ITER=82, #Train=271, #HeldOut=32, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1600 | testTime 0.0036 | numPos 11.0000 | numNeg 260.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6779 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0035
+ITER=83, #Train=274, #HeldOut=29, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.2058 | testTime 0.0035 | numPos 11.0000 | numNeg 263.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0031
+ITER=84, #Train=277, #HeldOut=26, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.2224 | testTime 0.0029 | numPos 11.0000 | numNeg 266.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6782 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0033
+ITER=85, #Train=280, #HeldOut=23, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1398 | testTime 0.0033 | numPos 11.0000 | numNeg 269.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6784 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0032
+ITER=86, #Train=283, #HeldOut=20, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1602 | testTime 0.0033 | numPos 11.0000 | numNeg 272.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6785 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0032
+ITER=87, #Train=286, #HeldOut=17, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1602 | testTime 0.0033 | numPos 11.0000 | numNeg 275.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6787 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0054
+ITER=88, #Train=289, #HeldOut=14, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.1586 | testTime 0.0055 | numPos 11.0000 | numNeg 278.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6788 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0020
+ITER=89, #Train=292, #HeldOut=11, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 2.2702 | testTime 0.0020 | numPos 11.0000 | numNeg 281.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6790 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0017
+ITER=90, #Train=295, #HeldOut=8, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.8450 | testTime 0.0017 | numPos 11.0000 | numNeg 284.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6791 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0018
+ITER=91, #Train=298, #HeldOut=5, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.7471 | testTime 0.0018 | numPos 11.0000 | numNeg 287.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6793 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0015
+ITER=92, #Train=301, #HeldOut=2, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.6207 | testTime 0.0016 | numPos 11.0000 | numNeg 290.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000
+Epoch 0099 | Eval Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0017
+ITER=93, #Train=303, #HeldOut=0, #Test=303
+Test Set Loss 0.6781 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | trainTime 0.8641 | exSelTime 0.5949 | testTime 0.0021 | numPos 12.0000 | numNeg 291.0000 | Recall_After 0.8000 | F1_After 0.8889 | AUC_After 0.8000

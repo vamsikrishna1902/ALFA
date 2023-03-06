@@ -1,0 +1,626 @@
+n cpu
+src/model/gnn/dataset/human-mouse-bertmap/prog_seed_pairs.txt
+src/model/gnn/dataset/human-mouse-bertmap/pos_neg_pairs.txt
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 6, [# Test]: 3284
+{'train_runtime': 4.6386, 'train_samples_per_second': 25.87, 'train_steps_per_second': 4.312, 'train_loss': 0.8205486297607422}
+ITER=0, #Train=6, #HeldOut=3278, #Test=3284
+Test Set Loss 0.6856 | PrecisionBeforeBlocking 0.0000 | RecallBeforeBlocking  0.0000 | F1BeforeBlocking 0.0000 | AUCBeforeBlocking 0.4991 | trainTime 6.5393 | exSelTime 0.0000 | testTime 1.8670 | numPos -1.0000 | numNeg -1.0000 | Recall_AfterBlocking 0.0000 | F1_AfterBlocking 0.0000 | AUC_AfterBlocking 0.3871
+totalEx=56, totalInferences=9, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=9, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=4
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 56, [# Test]: 3284
+{'train_runtime': 3.6313, 'train_samples_per_second': 308.433, 'train_steps_per_second': 5.508, 'train_loss': 0.7595701694488526}
+ITER=1, #Train=56, #HeldOut=3228, #Test=3284
+Test Set Loss 0.8275 | PrecisionBeforeBlocking 0.3585 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5278 | AUCBeforeBlocking 0.5009 | trainTime 3.7639 | exSelTime 0.0032 | testTime 1.8819 | numPos 28.0000 | numNeg 28.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4904 | AUC_AfterBlocking 0.3886
+totalEx=101, totalInferences=4, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=4, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 101, [# Test]: 3284
+{'train_runtime': 4.3581, 'train_samples_per_second': 463.505, 'train_steps_per_second': 4.589, 'train_loss': 0.7631799697875976}
+ITER=2, #Train=101, #HeldOut=3183, #Test=3284
+Test Set Loss 0.8207 | PrecisionBeforeBlocking 0.3592 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5285 | AUCBeforeBlocking 0.5024 | trainTime 4.4500 | exSelTime 0.0020 | testTime 1.8842 | numPos 49.0000 | numNeg 52.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4910 | AUC_AfterBlocking 0.3897
+totalEx=143, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 143, [# Test]: 3284
+{'train_runtime': 6.1315, 'train_samples_per_second': 466.446, 'train_steps_per_second': 3.262, 'train_loss': 0.7979001522064209}
+ITER=3, #Train=143, #HeldOut=3141, #Test=3284
+Test Set Loss 0.8200 | PrecisionBeforeBlocking 0.3595 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5289 | AUCBeforeBlocking 0.5031 | trainTime 6.2405 | exSelTime 0.0029 | testTime 1.8810 | numPos 62.0000 | numNeg 81.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4913 | AUC_AfterBlocking 0.3903
+totalEx=185, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 185, [# Test]: 3284
+{'train_runtime': 7.509, 'train_samples_per_second': 492.74, 'train_steps_per_second': 2.663, 'train_loss': 0.8085464477539063}
+ITER=4, #Train=185, #HeldOut=3099, #Test=3284
+Test Set Loss 0.8181 | PrecisionBeforeBlocking 0.3595 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5289 | AUCBeforeBlocking 0.5031 | trainTime 7.6282 | exSelTime 0.0018 | testTime 1.8535 | numPos 77.0000 | numNeg 108.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4913 | AUC_AfterBlocking 0.3903
+totalEx=230, totalInferences=4, infer_Precision=0.75, infer_RecallBeforeBlocking =1.0, infer_F1=0.8571428571428571, infer_TP=3, infer_TN=0, infer_FP=1, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 230, [# Test]: 3284
+{'train_runtime': 8.4662, 'train_samples_per_second': 543.338, 'train_steps_per_second': 2.362, 'train_loss': 0.813901710510254}
+ITER=5, #Train=230, #HeldOut=3054, #Test=3284
+Test Set Loss 0.8147 | PrecisionBeforeBlocking 0.3600 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5294 | AUCBeforeBlocking 0.5040 | trainTime 8.5577 | exSelTime 0.0018 | testTime 1.8580 | numPos 94.0000 | numNeg 136.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4917 | AUC_AfterBlocking 0.3910
+totalEx=273, totalInferences=2, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=2, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 273, [# Test]: 3284
+{'train_runtime': 9.5699, 'train_samples_per_second': 570.539, 'train_steps_per_second': 2.09, 'train_loss': 0.8191436767578125}
+ITER=6, #Train=273, #HeldOut=3011, #Test=3284
+Test Set Loss 0.8131 | PrecisionBeforeBlocking 0.3601 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5295 | AUCBeforeBlocking 0.5043 | trainTime 9.7411 | exSelTime 0.0018 | testTime 1.9026 | numPos 109.0000 | numNeg 164.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4918 | AUC_AfterBlocking 0.3912
+totalEx=322, totalInferences=8, infer_Precision=1.0, infer_RecallBeforeBlocking =0.75, infer_F1=0.8571428571428571, infer_TP=6, infer_TN=0, infer_FP=0, infer_FN=2, minK=1, maxK=3
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 322, [# Test]: 3284
+{'train_runtime': 11.1114, 'train_samples_per_second': 579.583, 'train_steps_per_second': 1.8, 'train_loss': 0.8215412139892578}
+ITER=7, #Train=322, #HeldOut=2962, #Test=3284
+Test Set Loss 0.8117 | PrecisionBeforeBlocking 0.3601 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5295 | AUCBeforeBlocking 0.5043 | trainTime 11.2283 | exSelTime 0.0030 | testTime 1.8639 | numPos 128.0000 | numNeg 194.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4918 | AUC_AfterBlocking 0.3912
+totalEx=367, totalInferences=4, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=4, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 367, [# Test]: 3284
+{'train_runtime': 11.9838, 'train_samples_per_second': 612.495, 'train_steps_per_second': 1.669, 'train_loss': 0.8197157859802247}
+ITER=8, #Train=367, #HeldOut=2917, #Test=3284
+Test Set Loss 0.8119 | PrecisionBeforeBlocking 0.3600 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5294 | AUCBeforeBlocking 0.5040 | trainTime 12.1009 | exSelTime 0.0020 | testTime 1.8687 | numPos 146.0000 | numNeg 221.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4917 | AUC_AfterBlocking 0.3910
+totalEx=410, totalInferences=2, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=2, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 410, [# Test]: 3284
+{'train_runtime': 13.3191, 'train_samples_per_second': 615.655, 'train_steps_per_second': 1.502, 'train_loss': 0.8322308540344239}
+ITER=9, #Train=410, #HeldOut=2874, #Test=3284
+Test Set Loss 0.8111 | PrecisionBeforeBlocking 0.3599 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5293 | AUCBeforeBlocking 0.5038 | trainTime 13.4498 | exSelTime 0.0020 | testTime 1.8594 | numPos 157.0000 | numNeg 253.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4916 | AUC_AfterBlocking 0.3908
+totalEx=457, totalInferences=6, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=6, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 457, [# Test]: 3284
+{'train_runtime': 13.822, 'train_samples_per_second': 661.265, 'train_steps_per_second': 1.447, 'train_loss': 0.8317375183105469}
+ITER=10, #Train=457, #HeldOut=2827, #Test=3284
+Test Set Loss 0.8106 | PrecisionBeforeBlocking 0.3599 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5293 | AUCBeforeBlocking 0.5038 | trainTime 13.9764 | exSelTime 0.0022 | testTime 2.0525 | numPos 177.0000 | numNeg 280.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4916 | AUC_AfterBlocking 0.3908
+totalEx=513, totalInferences=15, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=14, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=12
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 513, [# Test]: 3284
+{'train_runtime': 15.8811, 'train_samples_per_second': 646.049, 'train_steps_per_second': 1.259, 'train_loss': 0.8292403221130371}
+ITER=11, #Train=513, #HeldOut=2771, #Test=3284
+Test Set Loss 0.8101 | PrecisionBeforeBlocking 0.3597 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5291 | AUCBeforeBlocking 0.5036 | trainTime 16.0439 | exSelTime 0.0015 | testTime 1.8767 | numPos 201.0000 | numNeg 312.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4915 | AUC_AfterBlocking 0.3906
+totalEx=560, totalInferences=6, infer_Precision=1.0, infer_RecallBeforeBlocking =0.25, infer_F1=0.4, infer_TP=1, infer_TN=2, infer_FP=0, infer_FN=3, minK=1, maxK=3
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 560, [# Test]: 3284
+{'train_runtime': 16.8908, 'train_samples_per_second': 663.082, 'train_steps_per_second': 1.184, 'train_loss': 0.8303873062133789}
+ITER=12, #Train=560, #HeldOut=2724, #Test=3284
+Test Set Loss 0.8100 | PrecisionBeforeBlocking 0.3596 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5290 | AUCBeforeBlocking 0.5033 | trainTime 17.0321 | exSelTime 0.0018 | testTime 1.8632 | numPos 217.0000 | numNeg 343.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4914 | AUC_AfterBlocking 0.3904
+totalEx=603, totalInferences=2, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 603, [# Test]: 3284
+{'train_runtime': 17.8177, 'train_samples_per_second': 676.854, 'train_steps_per_second': 1.122, 'train_loss': 0.8310402870178223}
+ITER=13, #Train=603, #HeldOut=2681, #Test=3284
+Test Set Loss 0.8095 | PrecisionBeforeBlocking 0.3597 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5291 | AUCBeforeBlocking 0.5036 | trainTime 17.9189 | exSelTime 0.0027 | testTime 1.8626 | numPos 232.0000 | numNeg 371.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4915 | AUC_AfterBlocking 0.3906
+totalEx=648, totalInferences=4, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=3, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 648, [# Test]: 3284
+{'train_runtime': 19.5499, 'train_samples_per_second': 662.918, 'train_steps_per_second': 1.023, 'train_loss': 0.8313834190368652}
+ITER=14, #Train=648, #HeldOut=2636, #Test=3284
+Test Set Loss 0.8100 | PrecisionBeforeBlocking 0.3596 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5290 | AUCBeforeBlocking 0.5033 | trainTime 19.6714 | exSelTime 0.0024 | testTime 1.8577 | numPos 249.0000 | numNeg 399.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4914 | AUC_AfterBlocking 0.3904
+totalEx=692, totalInferences=3, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=2, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 692, [# Test]: 3284
+{'train_runtime': 20.4463, 'train_samples_per_second': 676.895, 'train_steps_per_second': 0.978, 'train_loss': 0.8370941162109375}
+ITER=15, #Train=692, #HeldOut=2592, #Test=3284
+Test Set Loss 0.8092 | PrecisionBeforeBlocking 0.3599 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5293 | AUCBeforeBlocking 0.5038 | trainTime 20.5590 | exSelTime 0.0016 | testTime 2.0979 | numPos 262.0000 | numNeg 430.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4916 | AUC_AfterBlocking 0.3908
+totalEx=733, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 733, [# Test]: 3284
+{'train_runtime': 21.5766, 'train_samples_per_second': 679.44, 'train_steps_per_second': 0.927, 'train_loss': 0.8384805679321289}
+ITER=16, #Train=733, #HeldOut=2551, #Test=3284
+Test Set Loss 0.8089 | PrecisionBeforeBlocking 0.3599 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5293 | AUCBeforeBlocking 0.5038 | trainTime 21.6763 | exSelTime 0.0013 | testTime 2.0500 | numPos 275.0000 | numNeg 458.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4916 | AUC_AfterBlocking 0.3908
+totalEx=779, totalInferences=5, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=5, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 779, [# Test]: 3284
+{'train_runtime': 23.2967, 'train_samples_per_second': 668.764, 'train_steps_per_second': 0.858, 'train_loss': 0.8293157577514648}
+ITER=17, #Train=779, #HeldOut=2505, #Test=3284
+Test Set Loss 0.8090 | PrecisionBeforeBlocking 0.3600 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5294 | AUCBeforeBlocking 0.5040 | trainTime 23.4287 | exSelTime 0.0012 | testTime 1.8590 | numPos 301.0000 | numNeg 478.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4917 | AUC_AfterBlocking 0.3910
+totalEx=821, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 821, [# Test]: 3284
+{'train_runtime': 24.1265, 'train_samples_per_second': 680.581, 'train_steps_per_second': 0.829, 'train_loss': 0.8326362609863281}
+ITER=18, #Train=821, #HeldOut=2463, #Test=3284
+Test Set Loss 0.8085 | PrecisionBeforeBlocking 0.3603 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5297 | AUCBeforeBlocking 0.5047 | trainTime 24.2773 | exSelTime 0.0025 | testTime 1.8636 | numPos 314.0000 | numNeg 507.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4921 | AUC_AfterBlocking 0.3915
+totalEx=867, totalInferences=5, infer_Precision=0.8, infer_RecallBeforeBlocking =1.0, infer_F1=0.888888888888889, infer_TP=4, infer_TN=0, infer_FP=1, infer_FN=0, minK=1, maxK=3
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 867, [# Test]: 3284
+{'train_runtime': 25.4917, 'train_samples_per_second': 680.223, 'train_steps_per_second': 0.785, 'train_loss': 0.8311215400695801}
+ITER=19, #Train=867, #HeldOut=2417, #Test=3284
+Test Set Loss 0.8082 | PrecisionBeforeBlocking 0.3602 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5296 | AUCBeforeBlocking 0.5045 | trainTime 25.5816 | exSelTime 0.0018 | testTime 1.8493 | numPos 334.0000 | numNeg 533.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4919 | AUC_AfterBlocking 0.3914
+totalEx=916, totalInferences=8, infer_Precision=1.0, infer_RecallBeforeBlocking =0.75, infer_F1=0.8571428571428571, infer_TP=6, infer_TN=0, infer_FP=0, infer_FN=2, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 916, [# Test]: 3284
+{'train_runtime': 26.2963, 'train_samples_per_second': 696.676, 'train_steps_per_second': 0.761, 'train_loss': 0.8297580718994141}
+ITER=20, #Train=916, #HeldOut=2368, #Test=3284
+Test Set Loss 0.8077 | PrecisionBeforeBlocking 0.3603 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5297 | AUCBeforeBlocking 0.5047 | trainTime 26.4288 | exSelTime 0.0023 | testTime 1.8538 | numPos 353.0000 | numNeg 563.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4921 | AUC_AfterBlocking 0.3915
+totalEx=962, totalInferences=5, infer_Precision=1.0, infer_RecallBeforeBlocking =0.5, infer_F1=0.6666666666666666, infer_TP=2, infer_TN=1, infer_FP=0, infer_FN=2, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 962, [# Test]: 3284
+{'train_runtime': 27.6225, 'train_samples_per_second': 696.533, 'train_steps_per_second': 0.724, 'train_loss': 0.8328956604003906}
+ITER=21, #Train=962, #HeldOut=2322, #Test=3284
+Test Set Loss 0.8078 | PrecisionBeforeBlocking 0.3602 | RecallBeforeBlocking  1.0000 | F1BeforeBlocking 0.5296 | AUCBeforeBlocking 0.5045 | trainTime 27.6966 | exSelTime 0.0020 | testTime 2.0281 | numPos 369.0000 | numNeg 593.0000 | Recall_AfterBlocking 0.7757 | F1_AfterBlocking 0.4919 | AUC_AfterBlocking 0.3914
+totalEx=1003, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1003, [# Test]: 3284
+{'train_runtime': 33.0262, 'train_samples_per_second': 607.396, 'train_steps_per_second': 1.211, 'train_loss': 0.7833150863647461}
+ITER=22, #Train=1003, #HeldOut=2281, #Test=3284
+Test Set Loss 0.6676 | PrecisionBeforeBlocking 0.4553 | RecallBeforeBlocking  0.9923 | F1BeforeBlocking 0.6242 | AUCBeforeBlocking 0.6651 | trainTime 33.1233 | exSelTime 0.0012 | testTime 1.8696 | numPos 380.0000 | numNeg 623.0000 | Recall_AfterBlocking 0.7698 | F1_AfterBlocking 0.5722 | AUC_AfterBlocking 0.5159
+totalEx=1051, totalInferences=7, infer_Precision=0.7142857142857143, infer_RecallBeforeBlocking =1.0, infer_F1=0.8333333333333333, infer_TP=5, infer_TN=0, infer_FP=2, infer_FN=0, minK=1, maxK=3
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1051, [# Test]: 3284
+{'train_runtime': 33.5929, 'train_samples_per_second': 625.727, 'train_steps_per_second': 1.191, 'train_loss': 0.7729886054992676}
+ITER=23, #Train=1051, #HeldOut=2233, #Test=3284
+Test Set Loss 0.5562 | PrecisionBeforeBlocking 0.8171 | RecallBeforeBlocking  0.5774 | F1BeforeBlocking 0.6766 | AUCBeforeBlocking 0.7526 | trainTime 33.7066 | exSelTime 0.0029 | testTime 1.8643 | numPos 405.0000 | numNeg 646.0000 | Recall_AfterBlocking 0.4479 | F1_AfterBlocking 0.5786 | AUC_AfterBlocking 0.5838
+totalEx=1093, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1093, [# Test]: 3284
+{'train_runtime': 34.4783, 'train_samples_per_second': 634.021, 'train_steps_per_second': 1.16, 'train_loss': 0.7568461418151855}
+ITER=24, #Train=1093, #HeldOut=2191, #Test=3284
+Test Set Loss 0.5432 | PrecisionBeforeBlocking 0.8174 | RecallBeforeBlocking  0.6395 | F1BeforeBlocking 0.7176 | AUCBeforeBlocking 0.7799 | trainTime 34.6112 | exSelTime 0.0020 | testTime 1.8565 | numPos 425.0000 | numNeg 668.0000 | Recall_AfterBlocking 0.4960 | F1_AfterBlocking 0.6174 | AUC_AfterBlocking 0.6050
+totalEx=1135, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1135, [# Test]: 3284
+{'train_runtime': 35.3328, 'train_samples_per_second': 642.462, 'train_steps_per_second': 1.132, 'train_loss': 0.7571210384368896}
+ITER=25, #Train=1135, #HeldOut=2149, #Test=3284
+Test Set Loss 0.5393 | PrecisionBeforeBlocking 0.8254 | RecallBeforeBlocking  0.6752 | F1BeforeBlocking 0.7428 | AUCBeforeBlocking 0.7977 | trainTime 35.4327 | exSelTime 0.0046 | testTime 2.1038 | numPos 438.0000 | numNeg 697.0000 | Recall_AfterBlocking 0.5237 | F1_AfterBlocking 0.6408 | AUC_AfterBlocking 0.6188
+totalEx=1178, totalInferences=2, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1178, [# Test]: 3284
+{'train_runtime': 36.9409, 'train_samples_per_second': 637.776, 'train_steps_per_second': 1.083, 'train_loss': 0.7561599254608155}
+ITER=26, #Train=1178, #HeldOut=2106, #Test=3284
+Test Set Loss 0.5336 | PrecisionBeforeBlocking 0.8119 | RecallBeforeBlocking  0.7083 | F1BeforeBlocking 0.7566 | AUCBeforeBlocking 0.8084 | trainTime 37.0341 | exSelTime 0.0015 | testTime 1.8704 | numPos 451.0000 | numNeg 727.0000 | Recall_AfterBlocking 0.5495 | F1_AfterBlocking 0.6554 | AUC_AfterBlocking 0.6271
+totalEx=1220, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1220, [# Test]: 3284
+{'train_runtime': 37.8379, 'train_samples_per_second': 644.856, 'train_steps_per_second': 1.057, 'train_loss': 0.7598301887512207}
+ITER=27, #Train=1220, #HeldOut=2064, #Test=3284
+Test Set Loss 0.5312 | PrecisionBeforeBlocking 0.8171 | RecallBeforeBlocking  0.7066 | F1BeforeBlocking 0.7579 | AUCBeforeBlocking 0.8092 | trainTime 37.9473 | exSelTime 0.0024 | testTime 1.8616 | numPos 460.0000 | numNeg 760.0000 | Recall_AfterBlocking 0.5482 | F1_AfterBlocking 0.6561 | AUC_AfterBlocking 0.6277
+totalEx=1264, totalInferences=3, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=3, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1264, [# Test]: 3284
+{'train_runtime': 38.6459, 'train_samples_per_second': 654.144, 'train_steps_per_second': 1.035, 'train_loss': 0.7577816009521484}
+ITER=28, #Train=1264, #HeldOut=2020, #Test=3284
+Test Set Loss 0.5296 | PrecisionBeforeBlocking 0.8152 | RecallBeforeBlocking  0.7279 | F1BeforeBlocking 0.7691 | AUCBeforeBlocking 0.8179 | trainTime 38.7515 | exSelTime 0.0016 | testTime 1.8787 | numPos 481.0000 | numNeg 783.0000 | Recall_AfterBlocking 0.5646 | F1_AfterBlocking 0.6672 | AUC_AfterBlocking 0.6345
+totalEx=1305, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1305, [# Test]: 3284
+{'train_runtime': 40.0479, 'train_samples_per_second': 651.72, 'train_steps_per_second': 0.999, 'train_loss': 0.755355978012085}
+ITER=29, #Train=1305, #HeldOut=1979, #Test=3284
+Test Set Loss 0.5275 | PrecisionBeforeBlocking 0.8018 | RecallBeforeBlocking  0.7534 | F1BeforeBlocking 0.7769 | AUCBeforeBlocking 0.8248 | trainTime 40.1793 | exSelTime 0.0012 | testTime 2.0424 | numPos 495.0000 | numNeg 810.0000 | Recall_AfterBlocking 0.5844 | F1_AfterBlocking 0.6761 | AUC_AfterBlocking 0.6398
+totalEx=1348, totalInferences=2, infer_Precision=0.0, infer_RecallBeforeBlocking =0.0, infer_F1=0.0, infer_TP=0, infer_TN=0, infer_FP=1, infer_FN=1, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1348, [# Test]: 3284
+{'train_runtime': 41.0389, 'train_samples_per_second': 656.937, 'train_steps_per_second': 0.975, 'train_loss': 0.7582731246948242}
+ITER=30, #Train=1348, #HeldOut=1936, #Test=3284
+Test Set Loss 0.5260 | PrecisionBeforeBlocking 0.8077 | RecallBeforeBlocking  0.7321 | F1BeforeBlocking 0.7681 | AUCBeforeBlocking 0.8174 | trainTime 41.1572 | exSelTime 0.0021 | testTime 1.8540 | numPos 508.0000 | numNeg 840.0000 | Recall_AfterBlocking 0.5679 | F1_AfterBlocking 0.6669 | AUC_AfterBlocking 0.6341
+totalEx=1389, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1389, [# Test]: 3284
+{'train_runtime': 42.2319, 'train_samples_per_second': 657.796, 'train_steps_per_second': 0.947, 'train_loss': 0.7597214698791503}
+ITER=31, #Train=1389, #HeldOut=1895, #Test=3284
+Test Set Loss 0.5254 | PrecisionBeforeBlocking 0.8138 | RecallBeforeBlocking  0.7134 | F1BeforeBlocking 0.7603 | AUCBeforeBlocking 0.8112 | trainTime 42.3251 | exSelTime 0.0019 | testTime 1.8620 | numPos 520.0000 | numNeg 869.0000 | Recall_AfterBlocking 0.5534 | F1_AfterBlocking 0.6588 | AUC_AfterBlocking 0.6293
+totalEx=1431, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1431, [# Test]: 3284
+{'train_runtime': 43.0495, 'train_samples_per_second': 664.816, 'train_steps_per_second': 0.929, 'train_loss': 0.759122371673584}
+ITER=32, #Train=1431, #HeldOut=1853, #Test=3284
+Test Set Loss 0.5265 | PrecisionBeforeBlocking 0.8089 | RecallBeforeBlocking  0.7381 | F1BeforeBlocking 0.7719 | AUCBeforeBlocking 0.8204 | trainTime 43.1433 | exSelTime 0.0028 | testTime 1.8822 | numPos 534.0000 | numNeg 897.0000 | Recall_AfterBlocking 0.5726 | F1_AfterBlocking 0.6705 | AUC_AfterBlocking 0.6364
+totalEx=1473, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1473, [# Test]: 3284
+{'train_runtime': 44.1858, 'train_samples_per_second': 666.73, 'train_steps_per_second': 0.905, 'train_loss': 0.7586799621582031}
+ITER=33, #Train=1473, #HeldOut=1811, #Test=3284
+Test Set Loss 0.5247 | PrecisionBeforeBlocking 0.8072 | RecallBeforeBlocking  0.7440 | F1BeforeBlocking 0.7743 | AUCBeforeBlocking 0.8225 | trainTime 44.3057 | exSelTime 0.0019 | testTime 1.8642 | numPos 551.0000 | numNeg 922.0000 | Recall_AfterBlocking 0.5772 | F1_AfterBlocking 0.6731 | AUC_AfterBlocking 0.6380
+totalEx=1517, totalInferences=3, infer_Precision=1.0, infer_RecallBeforeBlocking =0.6666666666666666, infer_F1=0.8, infer_TP=2, infer_TN=0, infer_FP=0, infer_FN=1, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1517, [# Test]: 3284
+{'train_runtime': 45.6349, 'train_samples_per_second': 664.842, 'train_steps_per_second': 0.877, 'train_loss': 0.758371114730835}
+ITER=34, #Train=1517, #HeldOut=1767, #Test=3284
+Test Set Loss 0.5255 | PrecisionBeforeBlocking 0.8020 | RecallBeforeBlocking  0.7679 | F1BeforeBlocking 0.7845 | AUCBeforeBlocking 0.8310 | trainTime 45.7519 | exSelTime 0.0012 | testTime 2.1105 | numPos 569.0000 | numNeg 948.0000 | Recall_AfterBlocking 0.5956 | F1_AfterBlocking 0.6836 | AUC_AfterBlocking 0.6447
+totalEx=1559, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1559, [# Test]: 3284
+{'train_runtime': 46.2493, 'train_samples_per_second': 674.173, 'train_steps_per_second': 0.865, 'train_loss': 0.7569434165954589}
+ITER=35, #Train=1559, #HeldOut=1725, #Test=3284
+Test Set Loss 0.5251 | PrecisionBeforeBlocking 0.7988 | RecallBeforeBlocking  0.7696 | F1BeforeBlocking 0.7839 | AUCBeforeBlocking 0.8307 | trainTime 46.3853 | exSelTime 0.0016 | testTime 2.0559 | numPos 587.0000 | numNeg 972.0000 | Recall_AfterBlocking 0.5970 | F1_AfterBlocking 0.6833 | AUC_AfterBlocking 0.6444
+totalEx=1601, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1601, [# Test]: 3284
+{'train_runtime': 47.999, 'train_samples_per_second': 667.097, 'train_steps_per_second': 0.833, 'train_loss': 0.7556268215179444}
+ITER=36, #Train=1601, #HeldOut=1683, #Test=3284
+Test Set Loss 0.5227 | PrecisionBeforeBlocking 0.7981 | RecallBeforeBlocking  0.7866 | F1BeforeBlocking 0.7923 | AUCBeforeBlocking 0.8378 | trainTime 48.1301 | exSelTime 0.0011 | testTime 2.0708 | numPos 604.0000 | numNeg 997.0000 | Recall_AfterBlocking 0.6102 | F1_AfterBlocking 0.6916 | AUC_AfterBlocking 0.6499
+totalEx=1643, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1643, [# Test]: 3284
+{'train_runtime': 48.5511, 'train_samples_per_second': 676.813, 'train_steps_per_second': 0.824, 'train_loss': 0.7553703308105468}
+ITER=37, #Train=1643, #HeldOut=1641, #Test=3284
+Test Set Loss 0.5240 | PrecisionBeforeBlocking 0.7935 | RecallBeforeBlocking  0.8036 | F1BeforeBlocking 0.7985 | AUCBeforeBlocking 0.8434 | trainTime 48.7207 | exSelTime 0.0013 | testTime 1.8688 | numPos 622.0000 | numNeg 1021.0000 | Recall_AfterBlocking 0.6234 | F1_AfterBlocking 0.6982 | AUC_AfterBlocking 0.6543
+totalEx=1685, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1685, [# Test]: 3284
+{'train_runtime': 50.17, 'train_samples_per_second': 671.717, 'train_steps_per_second': 0.797, 'train_loss': 0.7560099601745606}
+ITER=38, #Train=1685, #HeldOut=1599, #Test=3284
+Test Set Loss 0.5241 | PrecisionBeforeBlocking 0.7986 | RecallBeforeBlocking  0.7959 | F1BeforeBlocking 0.7973 | AUCBeforeBlocking 0.8420 | trainTime 50.2519 | exSelTime 0.0025 | testTime 1.8474 | numPos 639.0000 | numNeg 1046.0000 | Recall_AfterBlocking 0.6174 | F1_AfterBlocking 0.6964 | AUC_AfterBlocking 0.6531
+totalEx=1726, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1726, [# Test]: 3284
+{'train_runtime': 50.8802, 'train_samples_per_second': 678.456, 'train_steps_per_second': 0.786, 'train_loss': 0.756368350982666}
+ITER=39, #Train=1726, #HeldOut=1558, #Test=3284
+Test Set Loss 0.5238 | PrecisionBeforeBlocking 0.8000 | RecallBeforeBlocking  0.7823 | F1BeforeBlocking 0.7911 | AUCBeforeBlocking 0.8366 | trainTime 51.0145 | exSelTime 0.0026 | testTime 1.8559 | numPos 652.0000 | numNeg 1074.0000 | Recall_AfterBlocking 0.6069 | F1_AfterBlocking 0.6902 | AUC_AfterBlocking 0.6490
+totalEx=1768, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1768, [# Test]: 3284
+{'train_runtime': 51.9413, 'train_samples_per_second': 680.768, 'train_steps_per_second': 0.77, 'train_loss': 0.7584565162658692}
+ITER=40, #Train=1768, #HeldOut=1516, #Test=3284
+Test Set Loss 0.5245 | PrecisionBeforeBlocking 0.8005 | RecallBeforeBlocking  0.7543 | F1BeforeBlocking 0.7767 | AUCBeforeBlocking 0.8247 | trainTime 52.0180 | exSelTime 0.0021 | testTime 1.8650 | numPos 663.0000 | numNeg 1105.0000 | Recall_AfterBlocking 0.5851 | F1_AfterBlocking 0.6761 | AUC_AfterBlocking 0.6397
+totalEx=1809, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1809, [# Test]: 3284
+{'train_runtime': 53.4021, 'train_samples_per_second': 677.502, 'train_steps_per_second': 0.749, 'train_loss': 0.7591718673706055}
+ITER=41, #Train=1809, #HeldOut=1475, #Test=3284
+Test Set Loss 0.5238 | PrecisionBeforeBlocking 0.8080 | RecallBeforeBlocking  0.7585 | F1BeforeBlocking 0.7825 | AUCBeforeBlocking 0.8290 | trainTime 53.4980 | exSelTime 0.0021 | testTime 2.0396 | numPos 675.0000 | numNeg 1134.0000 | Recall_AfterBlocking 0.5884 | F1_AfterBlocking 0.6809 | AUC_AfterBlocking 0.6431
+totalEx=1850, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1850, [# Test]: 3284
+{'train_runtime': 54.6968, 'train_samples_per_second': 676.457, 'train_steps_per_second': 0.731, 'train_loss': 0.7605475425720215}
+ITER=42, #Train=1850, #HeldOut=1434, #Test=3284
+Test Set Loss 0.5229 | PrecisionBeforeBlocking 0.8133 | RecallBeforeBlocking  0.7372 | F1BeforeBlocking 0.7734 | AUCBeforeBlocking 0.8214 | trainTime 54.7937 | exSelTime 0.0011 | testTime 1.8667 | numPos 690.0000 | numNeg 1160.0000 | Recall_AfterBlocking 0.5719 | F1_AfterBlocking 0.6716 | AUC_AfterBlocking 0.6372
+totalEx=1892, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1892, [# Test]: 3284
+{'train_runtime': 55.3953, 'train_samples_per_second': 683.09, 'train_steps_per_second': 0.722, 'train_loss': 0.7594950675964356}
+ITER=43, #Train=1892, #HeldOut=1392, #Test=3284
+Test Set Loss 0.5211 | PrecisionBeforeBlocking 0.8149 | RecallBeforeBlocking  0.7449 | F1BeforeBlocking 0.7783 | AUCBeforeBlocking 0.8252 | trainTime 55.4905 | exSelTime 0.0018 | testTime 1.8718 | numPos 701.0000 | numNeg 1191.0000 | Recall_AfterBlocking 0.5778 | F1_AfterBlocking 0.6762 | AUC_AfterBlocking 0.6402
+totalEx=1933, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1933, [# Test]: 3284
+{'train_runtime': 56.6153, 'train_samples_per_second': 682.854, 'train_steps_per_second': 0.707, 'train_loss': 0.7586668014526368}
+ITER=44, #Train=1933, #HeldOut=1351, #Test=3284
+Test Set Loss 0.5228 | PrecisionBeforeBlocking 0.8195 | RecallBeforeBlocking  0.7296 | F1BeforeBlocking 0.7719 | AUCBeforeBlocking 0.8200 | trainTime 56.6901 | exSelTime 0.0026 | testTime 1.8863 | numPos 717.0000 | numNeg 1216.0000 | Recall_AfterBlocking 0.5660 | F1_AfterBlocking 0.6695 | AUC_AfterBlocking 0.6361
+totalEx=1974, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 1974, [# Test]: 3284
+{'train_runtime': 57.3758, 'train_samples_per_second': 688.095, 'train_steps_per_second': 0.697, 'train_loss': 0.762826681137085}
+ITER=45, #Train=1974, #HeldOut=1310, #Test=3284
+Test Set Loss 0.5219 | PrecisionBeforeBlocking 0.8257 | RecallBeforeBlocking  0.7092 | F1BeforeBlocking 0.7630 | AUCBeforeBlocking 0.8128 | trainTime 57.4503 | exSelTime 0.0019 | testTime 1.8619 | numPos 725.0000 | numNeg 1249.0000 | Recall_AfterBlocking 0.5501 | F1_AfterBlocking 0.6603 | AUC_AfterBlocking 0.6305
+totalEx=2015, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2015, [# Test]: 3284
+{'train_runtime': 61.2059, 'train_samples_per_second': 658.433, 'train_steps_per_second': 0.98, 'train_loss': 0.6960447311401368}
+ITER=46, #Train=2015, #HeldOut=1269, #Test=3284
+Test Set Loss 0.3806 | PrecisionBeforeBlocking 0.8630 | RecallBeforeBlocking  0.8248 | F1BeforeBlocking 0.8435 | AUCBeforeBlocking 0.8759 | trainTime 61.2803 | exSelTime 0.0016 | testTime 1.8468 | numPos 740.0000 | numNeg 1275.0000 | Recall_AfterBlocking 0.6398 | F1_AfterBlocking 0.7348 | AUC_AfterBlocking 0.6794
+totalEx=2056, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2056, [# Test]: 3284
+{'train_runtime': 62.2055, 'train_samples_per_second': 661.035, 'train_steps_per_second': 0.965, 'train_loss': 0.6740538914998372}
+ITER=47, #Train=2056, #HeldOut=1228, #Test=3284
+Test Set Loss 0.3631 | PrecisionBeforeBlocking 0.7961 | RecallBeforeBlocking  0.8997 | F1BeforeBlocking 0.8447 | AUCBeforeBlocking 0.8856 | trainTime 62.2816 | exSelTime 0.0015 | testTime 1.8595 | numPos 755.0000 | numNeg 1301.0000 | Recall_AfterBlocking 0.6979 | F1_AfterBlocking 0.7438 | AUC_AfterBlocking 0.6869
+totalEx=2097, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2097, [# Test]: 3284
+{'train_runtime': 62.943, 'train_samples_per_second': 666.317, 'train_steps_per_second': 0.953, 'train_loss': 0.6673049926757812}
+ITER=48, #Train=2097, #HeldOut=1187, #Test=3284
+Test Set Loss 0.3591 | PrecisionBeforeBlocking 0.7886 | RecallBeforeBlocking  0.9167 | F1BeforeBlocking 0.8478 | AUCBeforeBlocking 0.8898 | trainTime 63.0399 | exSelTime 0.0019 | testTime 1.8449 | numPos 767.0000 | numNeg 1330.0000 | Recall_AfterBlocking 0.7111 | F1_AfterBlocking 0.7478 | AUC_AfterBlocking 0.6902
+totalEx=2138, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2138, [# Test]: 3284
+{'train_runtime': 63.9531, 'train_samples_per_second': 668.615, 'train_steps_per_second': 0.938, 'train_loss': 0.6661677042643229}
+ITER=49, #Train=2138, #HeldOut=1146, #Test=3284
+Test Set Loss 0.3638 | PrecisionBeforeBlocking 0.7607 | RecallBeforeBlocking  0.9379 | F1BeforeBlocking 0.8401 | AUCBeforeBlocking 0.8867 | trainTime 64.0808 | exSelTime 0.0011 | testTime 1.8588 | numPos 778.0000 | numNeg 1360.0000 | Recall_AfterBlocking 0.7276 | F1_AfterBlocking 0.7438 | AUC_AfterBlocking 0.6878
+totalEx=2182, totalInferences=3, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=3, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2182, [# Test]: 3284
+{'train_runtime': 65.6616, 'train_samples_per_second': 664.619, 'train_steps_per_second': 0.914, 'train_loss': 0.6636662165323893}
+ITER=50, #Train=2182, #HeldOut=1102, #Test=3284
+Test Set Loss 0.3530 | PrecisionBeforeBlocking 0.7779 | RecallBeforeBlocking  0.9294 | F1BeforeBlocking 0.8470 | AUCBeforeBlocking 0.8907 | trainTime 65.7688 | exSelTime 0.0020 | testTime 1.8602 | numPos 793.0000 | numNeg 1389.0000 | Recall_AfterBlocking 0.7210 | F1_AfterBlocking 0.7484 | AUC_AfterBlocking 0.6909
+totalEx=2224, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2224, [# Test]: 3284
+{'train_runtime': 70.1587, 'train_samples_per_second': 633.991, 'train_steps_per_second': 0.855, 'train_loss': 0.6630427678426106}
+ITER=51, #Train=2224, #HeldOut=1060, #Test=3284
+Test Set Loss 0.3442 | PrecisionBeforeBlocking 0.7935 | RecallBeforeBlocking  0.9184 | F1BeforeBlocking 0.8514 | AUCBeforeBlocking 0.8925 | trainTime 70.2357 | exSelTime 0.0015 | testTime 1.8517 | numPos 814.0000 | numNeg 1410.0000 | Recall_AfterBlocking 0.7124 | F1_AfterBlocking 0.7508 | AUC_AfterBlocking 0.6924
+totalEx=2266, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2266, [# Test]: 3284
+{'train_runtime': 71.349, 'train_samples_per_second': 635.187, 'train_steps_per_second': 0.841, 'train_loss': 0.6620723724365234}
+ITER=52, #Train=2266, #HeldOut=1018, #Test=3284
+Test Set Loss 0.3528 | PrecisionBeforeBlocking 0.7755 | RecallBeforeBlocking  0.9371 | F1BeforeBlocking 0.8487 | AUCBeforeBlocking 0.8929 | trainTime 71.4256 | exSelTime 0.0014 | testTime 2.0166 | numPos 830.0000 | numNeg 1436.0000 | Recall_AfterBlocking 0.7269 | F1_AfterBlocking 0.7504 | AUC_AfterBlocking 0.6926
+totalEx=2308, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=1, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2308, [# Test]: 3284
+{'train_runtime': 72.1858, 'train_samples_per_second': 639.461, 'train_steps_per_second': 0.831, 'train_loss': 0.6630691528320313}
+ITER=53, #Train=2308, #HeldOut=976, #Test=3284
+Test Set Loss 0.3491 | PrecisionBeforeBlocking 0.7779 | RecallBeforeBlocking  0.9354 | F1BeforeBlocking 0.8494 | AUCBeforeBlocking 0.8932 | trainTime 72.2833 | exSelTime 0.0013 | testTime 1.8722 | numPos 840.0000 | numNeg 1468.0000 | Recall_AfterBlocking 0.7256 | F1_AfterBlocking 0.7509 | AUC_AfterBlocking 0.6929
+totalEx=2349, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2349, [# Test]: 3284
+{'train_runtime': 73.193, 'train_samples_per_second': 641.865, 'train_steps_per_second': 0.82, 'train_loss': 0.66117369333903}
+ITER=54, #Train=2349, #HeldOut=935, #Test=3284
+Test Set Loss 0.3515 | PrecisionBeforeBlocking 0.7691 | RecallBeforeBlocking  0.9430 | F1BeforeBlocking 0.8472 | AUCBeforeBlocking 0.8925 | trainTime 73.2854 | exSelTime 0.0015 | testTime 1.8505 | numPos 854.0000 | numNeg 1495.0000 | Recall_AfterBlocking 0.7315 | F1_AfterBlocking 0.7498 | AUC_AfterBlocking 0.6924
+totalEx=2391, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2391, [# Test]: 3284
+{'train_runtime': 74.1836, 'train_samples_per_second': 644.617, 'train_steps_per_second': 0.809, 'train_loss': 0.658484141031901}
+ITER=55, #Train=2391, #HeldOut=893, #Test=3284
+Test Set Loss 0.3430 | PrecisionBeforeBlocking 0.7836 | RecallBeforeBlocking  0.9362 | F1BeforeBlocking 0.8532 | AUCBeforeBlocking 0.8960 | trainTime 74.2885 | exSelTime 0.0015 | testTime 2.0232 | numPos 872.0000 | numNeg 1519.0000 | Recall_AfterBlocking 0.7263 | F1_AfterBlocking 0.7539 | AUC_AfterBlocking 0.6951
+totalEx=2432, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2432, [# Test]: 3284
+{'train_runtime': 74.7667, 'train_samples_per_second': 650.557, 'train_steps_per_second': 0.802, 'train_loss': 0.6605881373087565}
+ITER=56, #Train=2432, #HeldOut=852, #Test=3284
+Test Set Loss 0.3464 | PrecisionBeforeBlocking 0.7789 | RecallBeforeBlocking  0.9345 | F1BeforeBlocking 0.8496 | AUCBeforeBlocking 0.8933 | trainTime 74.9246 | exSelTime 0.0009 | testTime 1.8455 | numPos 883.0000 | numNeg 1549.0000 | Recall_AfterBlocking 0.7249 | F1_AfterBlocking 0.7509 | AUC_AfterBlocking 0.6929
+totalEx=2473, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2473, [# Test]: 3284
+{'train_runtime': 76.3127, 'train_samples_per_second': 648.123, 'train_steps_per_second': 0.786, 'train_loss': 0.6574316024780273}
+ITER=57, #Train=2473, #HeldOut=811, #Test=3284
+Test Set Loss 0.3402 | PrecisionBeforeBlocking 0.7881 | RecallBeforeBlocking  0.9362 | F1BeforeBlocking 0.8558 | AUCBeforeBlocking 0.8979 | trainTime 76.4413 | exSelTime 0.0018 | testTime 2.1301 | numPos 899.0000 | numNeg 1574.0000 | Recall_AfterBlocking 0.7263 | F1_AfterBlocking 0.7559 | AUC_AfterBlocking 0.6965
+totalEx=2514, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2514, [# Test]: 3284
+{'train_runtime': 77.5417, 'train_samples_per_second': 648.426, 'train_steps_per_second': 0.774, 'train_loss': 0.6581593195597331}
+ITER=58, #Train=2514, #HeldOut=770, #Test=3284
+Test Set Loss 0.3428 | PrecisionBeforeBlocking 0.7842 | RecallBeforeBlocking  0.9303 | F1BeforeBlocking 0.8510 | AUCBeforeBlocking 0.8937 | trainTime 77.6365 | exSelTime 0.0010 | testTime 1.8514 | numPos 916.0000 | numNeg 1598.0000 | Recall_AfterBlocking 0.7216 | F1_AfterBlocking 0.7516 | AUC_AfterBlocking 0.6933
+totalEx=2556, totalInferences=1, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=1, infer_TN=0, infer_FP=0, infer_FN=0, minK=1, maxK=1
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2556, [# Test]: 3284
+{'train_runtime': 78.3918, 'train_samples_per_second': 652.109, 'train_steps_per_second': 0.765, 'train_loss': 0.6578201293945313}
+ITER=59, #Train=2556, #HeldOut=728, #Test=3284
+Test Set Loss 0.3369 | PrecisionBeforeBlocking 0.7990 | RecallBeforeBlocking  0.9294 | F1BeforeBlocking 0.8593 | AUCBeforeBlocking 0.8995 | trainTime 78.5236 | exSelTime 0.0015 | testTime 1.8488 | numPos 934.0000 | numNeg 1622.0000 | Recall_AfterBlocking 0.7210 | F1_AfterBlocking 0.7580 | AUC_AfterBlocking 0.6978
+totalEx=2599, totalInferences=2, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=2, infer_TN=0, infer_FP=0, infer_FN=0, minK=2, maxK=2
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2599, [# Test]: 3284
+{'train_runtime': 79.6077, 'train_samples_per_second': 652.952, 'train_steps_per_second': 0.754, 'train_loss': 0.6587399164835612}
+ITER=60, #Train=2599, #HeldOut=685, #Test=3284
+Test Set Loss 0.3472 | PrecisionBeforeBlocking 0.7733 | RecallBeforeBlocking  0.9396 | F1BeforeBlocking 0.8484 | AUCBeforeBlocking 0.8930 | trainTime 79.7398 | exSelTime 0.0013 | testTime 1.8570 | numPos 947.0000 | numNeg 1652.0000 | Recall_AfterBlocking 0.7289 | F1_AfterBlocking 0.7504 | AUC_AfterBlocking 0.6927
+totalEx=2640, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2640, [# Test]: 3284
+{'train_runtime': 81.6487, 'train_samples_per_second': 646.673, 'train_steps_per_second': 0.735, 'train_loss': 0.6573983510335286}
+ITER=61, #Train=2640, #HeldOut=644, #Test=3284
+Test Set Loss 0.3475 | PrecisionBeforeBlocking 0.7727 | RecallBeforeBlocking  0.9396 | F1BeforeBlocking 0.8480 | AUCBeforeBlocking 0.8927 | trainTime 81.7687 | exSelTime 0.0013 | testTime 1.8781 | numPos 964.0000 | numNeg 1676.0000 | Recall_AfterBlocking 0.7289 | F1_AfterBlocking 0.7502 | AUC_AfterBlocking 0.6925
+totalEx=2681, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2681, [# Test]: 3284
+{'train_runtime': 81.8694, 'train_samples_per_second': 654.945, 'train_steps_per_second': 0.733, 'train_loss': 0.6578873952229818}
+ITER=62, #Train=2681, #HeldOut=603, #Test=3284
+Test Set Loss 0.3460 | PrecisionBeforeBlocking 0.7799 | RecallBeforeBlocking  0.9430 | F1BeforeBlocking 0.8537 | AUCBeforeBlocking 0.8973 | trainTime 81.9875 | exSelTime 0.0022 | testTime 2.0342 | numPos 971.0000 | numNeg 1710.0000 | Recall_AfterBlocking 0.7315 | F1_AfterBlocking 0.7549 | AUC_AfterBlocking 0.6960
+totalEx=2722, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2722, [# Test]: 3284
+{'train_runtime': 83.736, 'train_samples_per_second': 650.139, 'train_steps_per_second': 0.717, 'train_loss': 0.656849733988444}
+ITER=63, #Train=2722, #HeldOut=562, #Test=3284
+Test Set Loss 0.3397 | PrecisionBeforeBlocking 0.7845 | RecallBeforeBlocking  0.9379 | F1BeforeBlocking 0.8544 | AUCBeforeBlocking 0.8971 | trainTime 83.8798 | exSelTime 0.0009 | testTime 2.0465 | numPos 986.0000 | numNeg 1736.0000 | Recall_AfterBlocking 0.7276 | F1_AfterBlocking 0.7550 | AUC_AfterBlocking 0.6959
+totalEx=2763, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2763, [# Test]: 3284
+{'train_runtime': 83.8894, 'train_samples_per_second': 658.725, 'train_steps_per_second': 0.715, 'train_loss': 0.6576855977376302}
+ITER=64, #Train=2763, #HeldOut=521, #Test=3284
+Test Set Loss 0.3365 | PrecisionBeforeBlocking 0.7971 | RecallBeforeBlocking  0.9320 | F1BeforeBlocking 0.8593 | AUCBeforeBlocking 0.8998 | trainTime 83.9856 | exSelTime 0.0012 | testTime 1.8768 | numPos 1002.0000 | numNeg 1761.0000 | Recall_AfterBlocking 0.7230 | F1_AfterBlocking 0.7582 | AUC_AfterBlocking 0.6980
+totalEx=2804, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2804, [# Test]: 3284
+{'train_runtime': 85.4202, 'train_samples_per_second': 656.519, 'train_steps_per_second': 0.702, 'train_loss': 0.6580755233764648}
+ITER=65, #Train=2804, #HeldOut=480, #Test=3284
+Test Set Loss 0.3415 | PrecisionBeforeBlocking 0.7823 | RecallBeforeBlocking  0.9379 | F1BeforeBlocking 0.8531 | AUCBeforeBlocking 0.8961 | trainTime 85.5349 | exSelTime 0.0012 | testTime 2.0439 | numPos 1014.0000 | numNeg 1790.0000 | Recall_AfterBlocking 0.7276 | F1_AfterBlocking 0.7539 | AUC_AfterBlocking 0.6952
+totalEx=2845, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2845, [# Test]: 3284
+{'train_runtime': 86.6594, 'train_samples_per_second': 656.593, 'train_steps_per_second': 0.692, 'train_loss': 0.6571756362915039}
+ITER=66, #Train=2845, #HeldOut=439, #Test=3284
+Test Set Loss 0.3417 | PrecisionBeforeBlocking 0.7827 | RecallBeforeBlocking  0.9405 | F1BeforeBlocking 0.8544 | AUCBeforeBlocking 0.8974 | trainTime 86.7556 | exSelTime 0.0007 | testTime 1.8540 | numPos 1024.0000 | numNeg 1821.0000 | Recall_AfterBlocking 0.7296 | F1_AfterBlocking 0.7552 | AUC_AfterBlocking 0.6962
+totalEx=2886, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2886, [# Test]: 3284
+{'train_runtime': 87.5771, 'train_samples_per_second': 659.077, 'train_steps_per_second': 0.685, 'train_loss': 0.6584774653116862}
+ITER=67, #Train=2886, #HeldOut=398, #Test=3284
+Test Set Loss 0.3412 | PrecisionBeforeBlocking 0.7865 | RecallBeforeBlocking  0.9337 | F1BeforeBlocking 0.8538 | AUCBeforeBlocking 0.8962 | trainTime 87.6923 | exSelTime 0.0012 | testTime 2.0167 | numPos 1035.0000 | numNeg 1851.0000 | Recall_AfterBlocking 0.7243 | F1_AfterBlocking 0.7541 | AUC_AfterBlocking 0.6952
+totalEx=2927, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2927, [# Test]: 3284
+{'train_runtime': 89.3722, 'train_samples_per_second': 655.014, 'train_steps_per_second': 0.671, 'train_loss': 0.6584348678588867}
+ITER=68, #Train=2927, #HeldOut=357, #Test=3284
+Test Set Loss 0.3358 | PrecisionBeforeBlocking 0.7961 | RecallBeforeBlocking  0.9328 | F1BeforeBlocking 0.8590 | AUCBeforeBlocking 0.8998 | trainTime 89.5126 | exSelTime 0.0007 | testTime 2.0381 | numPos 1045.0000 | numNeg 1882.0000 | Recall_AfterBlocking 0.7236 | F1_AfterBlocking 0.7581 | AUC_AfterBlocking 0.6980
+totalEx=2968, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 2968, [# Test]: 3284
+{'train_runtime': 90.1703, 'train_samples_per_second': 658.31, 'train_steps_per_second': 0.665, 'train_loss': 0.6579015731811524}
+ITER=69, #Train=2968, #HeldOut=316, #Test=3284
+Test Set Loss 0.3356 | PrecisionBeforeBlocking 0.7983 | RecallBeforeBlocking  0.9320 | F1BeforeBlocking 0.8599 | AUCBeforeBlocking 0.9003 | trainTime 90.3067 | exSelTime 0.0006 | testTime 1.8843 | numPos 1058.0000 | numNeg 1910.0000 | Recall_AfterBlocking 0.7230 | F1_AfterBlocking 0.7587 | AUC_AfterBlocking 0.6984
+totalEx=3009, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3009, [# Test]: 3284
+{'train_runtime': 94.3427, 'train_samples_per_second': 637.887, 'train_steps_per_second': 0.848, 'train_loss': 0.6087923049926758}
+ITER=70, #Train=3009, #HeldOut=275, #Test=3284
+Test Set Loss 0.2801 | PrecisionBeforeBlocking 0.8577 | RecallBeforeBlocking  0.9379 | F1BeforeBlocking 0.8960 | AUCBeforeBlocking 0.9256 | trainTime 94.4548 | exSelTime 0.0010 | testTime 1.8617 | numPos 1075.0000 | numNeg 1934.0000 | Recall_AfterBlocking 0.7276 | F1_AfterBlocking 0.7873 | AUC_AfterBlocking 0.7180
+totalEx=3050, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3050, [# Test]: 3284
+{'train_runtime': 95.9405, 'train_samples_per_second': 635.811, 'train_steps_per_second': 0.834, 'train_loss': 0.5893036842346191}
+ITER=71, #Train=3050, #HeldOut=234, #Test=3284
+Test Set Loss 0.2619 | PrecisionBeforeBlocking 0.8539 | RecallBeforeBlocking  0.9541 | F1BeforeBlocking 0.9012 | AUCBeforeBlocking 0.9315 | trainTime 96.0282 | exSelTime 0.0010 | testTime 2.0295 | numPos 1094.0000 | numNeg 1956.0000 | Recall_AfterBlocking 0.7401 | F1_AfterBlocking 0.7929 | AUC_AfterBlocking 0.7226
+totalEx=3091, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3091, [# Test]: 3284
+{'train_runtime': 97.1015, 'train_samples_per_second': 636.654, 'train_steps_per_second': 0.824, 'train_loss': 0.5794584274291992}
+ITER=72, #Train=3091, #HeldOut=193, #Test=3284
+Test Set Loss 0.2451 | PrecisionBeforeBlocking 0.8937 | RecallBeforeBlocking  0.9439 | F1BeforeBlocking 0.9181 | AUCBeforeBlocking 0.9406 | trainTime 97.2529 | exSelTime 0.0005 | testTime 1.8459 | numPos 1107.0000 | numNeg 1984.0000 | Recall_AfterBlocking 0.7322 | F1_AfterBlocking 0.8049 | AUC_AfterBlocking 0.7297
+totalEx=3132, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3132, [# Test]: 3284
+{'train_runtime': 97.176, 'train_samples_per_second': 644.604, 'train_steps_per_second': 0.823, 'train_loss': 0.5741448402404785}
+ITER=73, #Train=3132, #HeldOut=152, #Test=3284
+Test Set Loss 0.2493 | PrecisionBeforeBlocking 0.8669 | RecallBeforeBlocking  0.9583 | F1BeforeBlocking 0.9103 | AUCBeforeBlocking 0.9381 | trainTime 97.3154 | exSelTime 0.0010 | testTime 1.8673 | numPos 1117.0000 | numNeg 2015.0000 | Recall_AfterBlocking 0.7434 | F1_AfterBlocking 0.8004 | AUC_AfterBlocking 0.7277
+totalEx=3173, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3173, [# Test]: 3284
+{'train_runtime': 99.8923, 'train_samples_per_second': 635.284, 'train_steps_per_second': 0.801, 'train_loss': 0.5799143791198731}
+ITER=74, #Train=3173, #HeldOut=111, #Test=3284
+Test Set Loss 0.2483 | PrecisionBeforeBlocking 0.8640 | RecallBeforeBlocking  0.9558 | F1BeforeBlocking 0.9075 | AUCBeforeBlocking 0.9359 | trainTime 99.9834 | exSelTime 0.0008 | testTime 2.0192 | numPos 1135.0000 | numNeg 2038.0000 | Recall_AfterBlocking 0.7414 | F1_AfterBlocking 0.7980 | AUC_AfterBlocking 0.7260
+totalEx=3214, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3214, [# Test]: 3284
+{'train_runtime': 99.7597, 'train_samples_per_second': 644.348, 'train_steps_per_second': 0.802, 'train_loss': 0.5722310066223144}
+ITER=75, #Train=3214, #HeldOut=70, #Test=3284
+Test Set Loss 0.2391 | PrecisionBeforeBlocking 0.8807 | RecallBeforeBlocking  0.9541 | F1BeforeBlocking 0.9159 | AUCBeforeBlocking 0.9410 | trainTime 99.8526 | exSelTime 0.0004 | testTime 1.8555 | numPos 1149.0000 | numNeg 2065.0000 | Recall_AfterBlocking 0.7401 | F1_AfterBlocking 0.8043 | AUC_AfterBlocking 0.7299
+totalEx=3255, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3255, [# Test]: 3284
+{'train_runtime': 100.5204, 'train_samples_per_second': 647.63, 'train_steps_per_second': 0.796, 'train_loss': 0.5736854553222657}
+ITER=76, #Train=3255, #HeldOut=29, #Test=3284
+Test Set Loss 0.2424 | PrecisionBeforeBlocking 0.8723 | RecallBeforeBlocking  0.9583 | F1BeforeBlocking 0.9133 | AUCBeforeBlocking 0.9400 | trainTime 100.6346 | exSelTime 0.0008 | testTime 1.8729 | numPos 1165.0000 | numNeg 2090.0000 | Recall_AfterBlocking 0.7434 | F1_AfterBlocking 0.8027 | AUC_AfterBlocking 0.7292
+totalEx=3284, totalInferences=0, infer_Precision=1.0, infer_RecallBeforeBlocking =1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=0, maxK=0
+initialize BERT for Binary Classification from the Pretrained BERT model at: bert-base-uncased ...
+
+data files loaded with sizes:
+	[# Train]: 3284, [# Test]: 3284
+{'train_runtime': 101.5266, 'train_samples_per_second': 646.924, 'train_steps_per_second': 0.788, 'train_loss': 0.5729368209838868}
+ITER=77, #Train=3284, #HeldOut=0, #Test=3284
+Test Set Loss 0.2383 | PrecisionBeforeBlocking 0.8755 | RecallBeforeBlocking  0.9626 | F1BeforeBlocking 0.9170 | AUCBeforeBlocking 0.9431 | trainTime 101.6860 | exSelTime 0.0003 | testTime 1.8577 | numPos 1170.0000 | numNeg 2114.0000 | Recall_AfterBlocking 0.7467 | F1_AfterBlocking 0.8060 | AUC_AfterBlocking 0.7316

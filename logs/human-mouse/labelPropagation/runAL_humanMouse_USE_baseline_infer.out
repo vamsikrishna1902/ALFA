@@ -1,0 +1,22 @@
+on cpu
+loading data ... from src/model/gnn/dataset/human-mouse-negsample/human_mouse_Ontology_Node_Embeddings.txt
+src/model/gnn/dataset/human-mouse-negsample/human_mouse_Ontology_Edge_List.txt
+src/model/gnn/dataset/human-mouse-negsample/prog_seed_pairs.txt
+src/model/gnn/dataset/human-mouse-negsample/pos_neg_pairs.txt
+done
+from src/model/gnn/dataset/human-mouse-negsample/human_mouse_Ontology_Node_Embeddings.txt
+Epoch 0099 | Eval Loss 0.6552 | Precision 1.0000 | Recall 1.0000 | F1 1.0000 | AUC 1.0000 | time 0.0377
+ITER=0, #Train=10, #HeldOut=15150, #Test=15160
+Test Set Loss 0.9590 | Precision 0.1162 | Recall 0.9954 | F1 0.2082 | AUC 0.8357 | trainTime 7.1991 | exSelTime 0.0000 | testTime 0.0441 | numPos -1.0000 | numNeg -1.0000 | Recall_After 0.9954 | F1_After 0.2082 | AUC_After 0.8357
+totalEx=14531, totalInferences=14329, infer_Precision=0.9911738746690203, infer_Recall=0.9197379197379197, infer_F1=0.9541206457094308, infer_TP=1123, infer_TN=13098, infer_FP=10, infer_FN=98, minK=2, maxK=1016
+Epoch 0099 | Eval Loss 0.9121 | Precision 0.1782 | Recall 0.9983 | F1 0.3024 | AUC 0.9737 | time 0.0409
+ITER=1, #Train=14531, #HeldOut=629, #Test=15160
+Test Set Loss 0.9071 | Precision 0.2043 | Recall 0.9815 | F1 0.3383 | AUC 0.9356 | trainTime 7.1991 | exSelTime 4.2026 | testTime 0.0422 | numPos 1191.0000 | numNeg 13340.0000 | Recall_After 0.9815 | F1_After 0.3383 | AUC_After 0.9356
+totalEx=15143, totalInferences=420, infer_Precision=0.7980769230769231, infer_Recall=0.4088669950738916, infer_F1=0.5407166123778502, infer_TP=83, infer_TN=196, infer_FP=21, infer_FN=120, minK=2, maxK=35
+Epoch 0099 | Eval Loss 0.8895 | Precision 0.2130 | Recall 0.9985 | F1 0.3510 | AUC 0.9882 | time 0.0414
+ITER=2, #Train=15143, #HeldOut=17, #Test=15160
+Test Set Loss 0.8822 | Precision 0.2381 | Recall 0.9723 | F1 0.3825 | AUC 0.9597 | trainTime 7.1991 | exSelTime 0.5199 | testTime 0.0420 | numPos 1317.0000 | numNeg 13826.0000 | Recall_After 0.9723 | F1_After 0.3825 | AUC_After 0.9597
+totalEx=15160, totalInferences=0, infer_Precision=1.0, infer_Recall=1.0, infer_F1=1.0, infer_TP=0, infer_TN=0, infer_FP=0, infer_FN=0, minK=2, maxK=2
+Epoch 0099 | Eval Loss 0.8499 | Precision 0.2610 | Recall 0.9992 | F1 0.4138 | AUC 0.9951 | time 0.0412
+ITER=3, #Train=15160, #HeldOut=0, #Test=15160
+Test Set Loss 0.8435 | Precision 0.2828 | Recall 0.9492 | F1 0.4357 | AUC 0.9614 | trainTime 7.1991 | exSelTime 0.3361 | testTime 0.0422 | numPos 1329.0000 | numNeg 13831.0000 | Recall_After 0.9492 | F1_After 0.4357 | AUC_After 0.9614

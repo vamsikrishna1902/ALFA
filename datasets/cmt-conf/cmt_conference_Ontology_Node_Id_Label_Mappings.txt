@@ -1,0 +1,116 @@
+1: Administrator: 1
+2: Paper: 1
+3: Program Committee Member: 1
+4: Reviewer: 1
+5: Bid: 1
+6: External Reviewer: 1
+7: Co-author: 1
+8: Conference: 1
+9: Program Committee Chair: 1
+10: Review: 1
+11: Author: 1
+12: Conference Member: 1
+13: Person: 1
+14: Document: 1
+15: Decision: 1
+16: Program Committee: 1
+17: Subject Area: 1
+18: Chairman: 1
+19: Meta- Reviewer: 1
+20: User: 1
+21: Preference: 1
+22: Associated Chair: 1
+23: Conference Chair: 1
+24: Acceptance: 1
+25: Rejection: 1
+26: Author Not Reviewer: 1
+27: Meta- Review: 1
+28: Paper Abstract: 1
+29: Paper Full Version: 1
+30: accepts Hardcopy Submissions: 2
+31: date: 2
+32: email: 2
+33: logo U R L: 2
+34: max Papers: 2
+35: name: 2
+36: paper I D: 2
+37: reviews Per Paper: 2
+38: site U R L: 2
+39: title: 2
+89: Important dates: 1
+90: Conference volume: 1
+91: Topic: 1
+92: Review preference: 1
+93: Review expertise: 1
+94: Reviewer: 1
+95: Person: 1
+96: Conference document: 1
+97: Active conference participant: 1
+98: Presentation: 1
+99: Committee: 1
+100: Chair: 1
+101: Committee member: 1
+102: Co-chair: 1
+103: Program committee: 1
+104: Conference proceedings: 1
+105: Publisher: 1
+106: Reviewed contribution: 1
+107: Review: 1
+108: Submitted contribution: 1
+109: Steering committee: 1
+110: Conference part: 1
+111: Track-workshop chair: 1
+112: Paper: 1
+113: Poster: 1
+114: Abstract: 1
+115: Organizing committee: 1
+116: Conference contribution: 1
+117: Track: 1
+118: Tutorial: 1
+119: Workshop: 1
+120: Conference www: 1
+121: Conference: 1
+122: Conference contributor: 1
+123: Conference participant: 1
+124: Invited speaker: 1
+125: Regular author: 1
+126: Passive conference participant: 1
+127: Accepted contribution: 1
+128: Rejected contribution: 1
+129: Written contribution: 1
+130: Regular contribution: 1
+131: Extended abstract: 1
+132: Invited talk: 1
+133: Contribution 1th-author: 1
+134: Contribution co-author: 1
+135: Call for paper: 1
+136: Call for participation: 1
+137: Camera ready contribution: 1
+138: Conference announcement: 1
+139: Conference applicant: 1
+140: Conference fees: 1
+141: Early paid applicant: 1
+142: Paid applicant: 1
+143: Late paid applicant: 1
+144: Registeered applicant: 1
+145: Information for participants: 1
+146: Organization: 1
+147: Organizer: 1
+148: has a URL: 2
+149: has a date of issue: 2
+150: has a degree: 2
+151: has a location: 2
+152: has a name: 2
+153: has a volume: 2
+154: has an ISBN: 2
+155: has an email: 2
+156: has an expertise: 2
+157: has gender: 2
+158: has the first name: 2
+159: has the last name: 2
+160: is a date of acceptance announcement: 2
+161: is a date of camera ready paper submission: 2
+162: is a full paper submission date: 2
+163: is a starting date: 2
+164: is an abstract submission date: 2
+165: is an ending date: 2
